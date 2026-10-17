@@ -1,0 +1,7 @@
+{
+  "prompt": "Edit the first image, the generated Promeia chibi portrait. The second image is her official character design reference. Keep this exact clean chibi style, colors, transparent background, dark cloak, braid's white metal bands and composition. Correct the face orientation and hair occlusion to match her official identity: show her face almost front-facing; her OWN RIGHT eye, on the VIEWER'S LEFT half of the face, must be entirely hidden behind the heavy cobalt blue side fringe. Her OWN LEFT violet eye, on the VIEWER'S RIGHT half of the face, must be fully visible. Currently the single visible eye reads as on the wrong side. Sweep the bangs to cover the viewer-left eye and leave the viewer-right eye open, make the nose face front so laterality is unambiguous. Keep the segmented single braid on the viewer's RIGHT; do NOT horizontally flip the whole image. Both hands can be omitted below the chest in this close-up. Reserved gentle serious small mouth, not smiling widely. Ensure ample margin around all hair. One transparent square PNG, no text, no backdrop.",
+  "selectedFile": "exec-ee321df4-11e2-4f5d-8c2d-b4abf2119e9e.png",
+  "reason": "Corrected eye occlusion and front-facing laterality to match official design.",
+  "mode": "built-in image_gen",
+  "transparent": true
+}

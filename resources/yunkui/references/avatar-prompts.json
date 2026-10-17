@@ -1,0 +1,35 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "prompts": [
+    {
+      "id": "yixuan",
+      "prompt": "Use case: stylized-concept. Create one square 1:1 chibi profile avatar illustration for a chat app, depicting 仪玄 Yixuan from Zenless Zone Zero. Input image is an identity reference, not an edit target. Follow its visible character identity carefully. silver-white long hair with forehead fringe and slim top flyaway; black horizontal hair ornament with round hole and zigzag tip; warm golden amber eyes; small orange knotted high collar; mustard golden-yellow sleeveless outer coat over white and black Chinese-inspired top; black fingerless glove. Calm, lightly amused confident smile, one hand lightly at chin. Cohesive set style: polished Japanese anime chibi, large head and small shoulders, crisp elegant dark linework, soft cel shading, warm ivory circular halo and very light pale ivory square background. Front or slight three-quarter bust portrait, full head and all ears/hair accessories comfortably inside frame, generous 10 percent safe padding for circular avatar crop, face occupies central 60 percent. Cute nonsexual depiction, fully clothed, only head and shoulders. No lettering, no watermark, no collage, no extra characters, no weapons or busy background. Preserve reference-specific design while simplifying for a readable 48px avatar."
+    },
+    {
+      "id": "pan-yinhu",
+      "prompt": "Use case: stylized-concept. Create one square 1:1 chibi profile avatar illustration for a chat app, depicting 潘引壶 Pan Yinhu from Zenless Zone Zero. Input image is an identity reference, not an edit target. Follow its visible character identity carefully. male stocky anthropomorphic black-and-white panda, fluffy white cheeks and chest, black round ears and eye patches; small reddish round glasses low over nose; broad gray conical hat with dangling dark bead pendants and red ribbon details; mustard yellow Chinese vest with dark edging. Warm hearty smiling expression, a large black paw in a welcoming gesture. Retain his panda muzzle, never human face. Cohesive set style: polished Japanese anime chibi, large head and small shoulders, crisp elegant dark linework, soft cel shading, warm ivory circular halo and very light pale ivory square background. Front or slight three-quarter bust portrait, full head and all ears/hair accessories comfortably inside frame, generous 10 percent safe padding for circular avatar crop, face occupies central 60 percent. Cute nonsexual depiction, fully clothed, only head and shoulders. No lettering, no watermark, no collage, no extra characters, no weapons or busy background. Preserve reference-specific design while simplifying for a readable 48px avatar."
+    },
+    {
+      "id": "ju-fufu",
+      "prompt": "Use case: stylized-concept. Create one square 1:1 chibi profile avatar illustration for a chat app, depicting 橘福福 Ju Fufu from Zenless Zone Zero. Input image is an identity reference, not an edit target. Follow its visible character identity carefully. golden orange long hair with dark tiger streaks, white underside tufts; two rounded black-rimmed tiger ears with white inner fur (not pointy cat ears); vivid green eyes; gray and black martial uniform, yellow rectangular pendant, chunky round metal shoulder components. Cheerful brave proud big-sister expression, tiny raised fingerless-gloved hands. A glimpse of fluffy golden tiger tail with dark indigo bow. Cohesive set style: polished Japanese anime chibi, large head and small shoulders, crisp elegant dark linework, soft cel shading, warm ivory circular halo and very light pale ivory square background. Front or slight three-quarter bust portrait, full head and all ears/hair accessories comfortably inside frame, generous 10 percent safe padding for circular avatar crop, face occupies central 60 percent. Cute nonsexual depiction, fully clothed, only head and shoulders. No lettering, no watermark, no collage, no extra characters, no weapons or busy background. Preserve reference-specific design while simplifying for a readable 48px avatar."
+    },
+    {
+      "id": "ye-shunguang-warm",
+      "prompt": "Use case: stylized-concept. Create ONE square chibi chat avatar of Ye Shunguang 叶瞬光 from Zenless Zone Zero wearing her 暖霞拾光 / Touch of Dawnlight skin. The first reference is her skin identity and clothing; the second shows exact accessory details. Preserve brown high tied long hair with dark black/navy inner locks, red-orange eyes, red-and-white head ribbon with white tipped upward fluttering ends (not horns), small red/gold hair ornaments and white hanging ribbons. Skin outfit: pale blue and white off-shoulder ruffled blouse, tiny white bows, red shoulder ribbons, light-blue short collar tied with a red ribbon and small gold flower clasp, red corset waist glimpsed at bottom. Gentle welcoming smile. One hand lifted near chest with pale green bead-and-four-leaf-clover bracelet. No sword, no combat costume or golden crown. Cohesive set style: polished anime chibi large head and small shoulders, crisp dark linework and soft cel shading, warm ivory circular halo and pale ivory square background. Bust composition, full head and accessories inside 10% safety margins for round avatar crop. Sweet fully clothed nonsexual depiction. No text, no logo, no collage, no extra character. Render as a new chibi portrait, do not reproduce the advertisement layout.",
+      "transparent": false,
+      "refs": [
+        "./web/assets/yunkui-ye-shunguang-warm-stand.png",
+        "./web/assets/yunkui-ye-shunguang-warm-details.png"
+      ]
+    },
+    {
+      "id": "ye-shunguang-skin-cutout",
+      "prompt": "Use case: background-extraction. Edit this poster into a transparent character cutout for a chat application's full-body character card. Keep only the exact illustrated Ye Shunguang wearing the 暖霞拾光 Touch of Dawnlight skin from the center of this reference. Preserve her full head, flowing brown/black long hair, red-white ribbons, face, pose, hands, green bracelet, white/pale-blue ruffled top, red corset and asymmetric red-white-blue long skirt, red small crossbody purse with panda charm, fluffy brown tail, lace socks and red shoes. Preserve the original illustration style and all visible character shapes and colors, no redesign. Remove ALL background, poster text, logos, panels, date, floor shadow, decorations and other character portraits. Actual transparent alpha background, portrait canvas with enough margin to keep all hair ribbon ends and both shoes fully in frame. Do not add text. Do not turn cloth ribbons into extra tails.",
+      "transparent": true,
+      "refs": [
+        "./web/assets/yunkui-ye-shunguang-warm-stand.png"
+      ]
+    }
+  ]
+}

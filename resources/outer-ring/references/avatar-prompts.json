@@ -1,0 +1,56 @@
+[
+  {
+    "id": "burnice",
+    "name": "柏妮思 / Burnice",
+    "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 static chibi chat avatar in the EXACT simple visual language of the first attached GIF: extremely large wide soft head, tiny squat bean body, thick slightly hand-drawn near-black outline, flat muted color blocks, tiny black dot eyes, small triangle/bean mouth, minimal facial detail. Warm playful meme sticker like the GIF, not glossy anime. Second reference is ONLY identity and costume reference, do not copy its rendering style or long proportions. Center a head-and-tiny-upper-body character filling about 82% width with 8% empty margins so it works in circular cropping. Solid warm cream background (#FFF0D1), no frame, no text, no labels, no watermark, no gradients, no complex shading, no realistic texture, no scenery, no other characters. Simplify costume into a few readable shapes. Face is about 60% of canvas height. Subject: 柏妮思 / Burnice. Preserve these identity cues: cream-blonde short twin ponytails with outward curls; angular black sunglasses with red lenses sitting on TOP of head, red neck scarf, cropped charcoal biker jacket with red flame cuffs, black shirt, gold belt buckle. Cheerful open tiny mouth and black dot eyes. Hold a tiny plain soda cup.",
+    "referenced_image_paths": [
+      "./output/outer-ring-research/user-style-reference.gif",
+      "./web/assets/outer-ring-burnice-stand.png"
+    ]
+  },
+  {
+    "id": "caesar",
+    "name": "凯撒 / Caesar",
+    "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 static chibi chat avatar in the EXACT simple visual language of the first attached GIF: extremely large wide soft head, tiny squat bean body, thick slightly hand-drawn near-black outline, flat muted color blocks, tiny black dot eyes, small triangle/bean mouth, minimal facial detail. Warm playful meme sticker like the GIF, not glossy anime. Second reference is ONLY identity and costume reference, do not copy its rendering style or long proportions. Center a head-and-tiny-upper-body character filling about 82% width with 8% empty margins so it works in circular cropping. Solid warm cream background (#FFF0D1), no frame, no text, no labels, no watermark, no gradients, no complex shading, no realistic texture, no scenery, no other characters. Simplify costume into a few readable shapes. Face is about 60% of canvas height. Subject: 凯撒 / Caesar. Preserve these identity cues: sage-gray green short layered bangs with a longer ponytail behind, two black tall pointed triangular hair ornaments (NOT animal ears), tiny black hair clip, amber-themed dot eyes, charcoal fur collar, black biker breastplate, a red collar and gold accents, simplified round dark shield rim with gold spikes visible low at one side. Dependable friendly tiny smile.",
+    "referenced_image_paths": [
+      "./output/outer-ring-research/user-style-reference.gif",
+      "./web/assets/outer-ring-caesar-stand.png"
+    ]
+  },
+  {
+    "id": "lucy",
+    "name": "露西 / Lucy",
+    "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 static chibi chat avatar in the EXACT simple visual language of the first attached GIF: extremely large wide soft head, tiny squat bean body, thick slightly hand-drawn near-black outline, flat muted color blocks, tiny black dot eyes, small triangle/bean mouth, minimal facial detail. Warm playful meme sticker like the GIF, not glossy anime. Second reference is ONLY identity and costume reference, do not copy its rendering style or long proportions. Center a head-and-tiny-upper-body character filling about 82% width with 8% empty margins so it works in circular cropping. Solid warm cream background (#FFF0D1), no frame, no text, no labels, no watermark, no gradients, no complex shading, no realistic texture, no scenery, no other characters. Simplify costume into a few readable shapes. Face is about 60% of canvas height. Subject: 露西 / Lucy. Preserve these identity cues: long golden-blonde hair tied to one side flowing behind, black biker helmet with a SINGLE conical top spike and simplified gold boar emblem, reddish dot eyes, red goggles worn around the NECK, dark short biker jacket with white collar and red inner sleeve, tiny gloves. Proud slightly pouty small mouth; rounded small eyebrows.",
+    "referenced_image_paths": [
+      "./output/outer-ring-research/user-style-reference.gif",
+      "./web/assets/outer-ring-lucy-stand.png"
+    ]
+  },
+  {
+    "id": "lighter",
+    "name": "莱特 / Lighter",
+    "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 static chibi chat avatar in the EXACT simple visual language of the first attached GIF: extremely large wide soft head, tiny squat bean body, thick slightly hand-drawn near-black outline, flat muted color blocks, tiny black dot eyes, small triangle/bean mouth, minimal facial detail. Warm playful meme sticker like the GIF, not glossy anime. Second reference is ONLY identity and costume reference, do not copy its rendering style or long proportions. Center a head-and-tiny-upper-body character filling about 82% width with 8% empty margins so it works in circular cropping. Solid warm cream background (#FFF0D1), no frame, no text, no labels, no watermark, no gradients, no complex shading, no realistic texture, no scenery, no other characters. Simplify costume into a few readable shapes. Face is about 60% of canvas height. Subject: 莱特 / Lighter. Preserve these identity cues: male character with messy short blue-black hair and long side bangs, narrow dark sunglasses over eyes, bright RED scarf around neck, dark biker jacket with small gold shoulder studs and one simplified gold forearm gauntlet, cool straight small mouth and relaxed posture. Keep clearly male chibi face and silhouette.",
+    "referenced_image_paths": [
+      "./output/outer-ring-research/user-style-reference.gif",
+      "./web/assets/outer-ring-lighter-stand.png"
+    ]
+  },
+  {
+    "id": "pulchra",
+    "name": "波可娜 / Pulchra",
+    "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 static chibi chat avatar in the EXACT simple visual language of the first attached GIF: extremely large wide soft head, tiny squat bean body, thick slightly hand-drawn near-black outline, flat muted color blocks, tiny black dot eyes, small triangle/bean mouth, minimal facial detail. Warm playful meme sticker like the GIF, not glossy anime. Second reference is ONLY identity and costume reference, do not copy its rendering style or long proportions. Center a head-and-tiny-upper-body character filling about 82% width with 8% empty margins so it works in circular cropping. Solid warm cream background (#FFF0D1), no frame, no text, no labels, no watermark, no gradients, no complex shading, no realistic texture, no scenery, no other characters. Simplify costume into a few readable shapes. Face is about 60% of canvas height. Subject: 波可娜 / Pulchra. Preserve these identity cues: anthropomorphic SAND CAT THIREN woman, sandy-gold swept hair, large genuine triangular furry cat ears with white tufts, tan furry face and small muzzle, green-themed simple dot eyes, dark gray respirator mask covering mouth, white chest panel with black biker harness/jacket and orange accents, a tiny hint of a very fluffy striped sandy-brown tail behind. NOT a human girl merely wearing cat ears.",
+    "referenced_image_paths": [
+      "./output/outer-ring-research/user-style-reference.gif",
+      "./web/assets/outer-ring-pulchra-stand.png"
+    ]
+  },
+  {
+    "id": "piper",
+    "name": "派派 / Piper",
+    "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 static chibi chat avatar in the EXACT simple visual language of the first attached GIF: extremely large wide soft head, tiny squat bean body, thick slightly hand-drawn near-black outline, flat muted color blocks, tiny black dot eyes, small triangle/bean mouth, minimal facial detail. Warm playful meme sticker like the GIF, not glossy anime. Second reference is ONLY identity and costume reference, do not copy its rendering style or long proportions. Center a head-and-tiny-upper-body character filling about 82% width with 8% empty margins so it works in circular cropping. Solid warm cream background (#FFF0D1), no frame, no text, no labels, no watermark, no gradients, no complex shading, no realistic texture, no scenery, no other characters. Simplify costume into a few readable shapes. Face is about 60% of canvas height. Subject: 派派 / Piper. Preserve these identity cues: pale straw-blonde fluffy wavy shoulder-length hair with little swept-up curl/topknot and an ahoge, green hair clip with small red emblem, red goggles around NECK, charcoal tank top with a tiny yellow-white motif, white forearm sleeves, mustard gloves, black harness belt and small orange workwear patches. Sleepy half-lidded dot eyes and a tiny relaxed smile. No animal ears.",
+    "referenced_image_paths": [
+      "./output/outer-ring-research/user-style-reference.gif",
+      "./web/assets/outer-ring-piper-stand.png"
+    ]
+  }
+]

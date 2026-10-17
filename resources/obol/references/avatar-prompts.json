@@ -1,0 +1,91 @@
+[
+  {
+    "id": "seed",
+    "name": "席德",
+    "tool": "built-in image_gen",
+    "date": "2026-10-17",
+    "revision": "clean-flat-v2",
+    "prompt": "Create a NEW very clean flat-color chibi avatar of Seed / 席德 from Zenless Zone Zero, using the supplied full character illustration ONLY for identity. The user rejected the prior glossy painterly look: use crisp, airy 2D manga sticker drawing, thin uniform gray-blue outlines, large SIMPLE flat shapes, almost no gradients, only ONE small hard-edge shadow per shape, matte finish, no volumetric rendering, no glossy hair, no sparkling skin, no soft airbrush, NO elaborate eye reflections (one tiny white dot maximum per eye). Sparse restrained hair strand lines. Very cute simplified 2.5-head chibi bust, round face, small nose and gentle smile, restrained simple blue eyes. Accurate icy blue asymmetrical wavy bob with dark blue curled back tuft, small upward ahoge, silver four-petal flower hairpin, black segmented collar with silver flower, white gray futuristic outfit and tiny yellow wires. Centered symmetrical bust with 12% breathing room around head, shoulders fully clothed, plain solid off-white very pale blue background, no decorative ring, no border, no text, no watermark. 1:1 square, quiet fresh Japanese flat anime stationery illustration.",
+    "references": [
+      "web/assets/obol-seed-stand.png"
+    ],
+    "output": "web/assets/obol-seed-avatar.png",
+    "generatedOriginal": "C:\\Users\\misak\\.codex\\generated_images\\01a145af-95fa-7fb1-a91e-66f8f7f6a4a1\\exec-2bb4b64c-2b48-473e-8d72-c27e8cd81143.png",
+    "transparent_background": false
+  },
+  {
+    "id": "magus",
+    "name": "鬼火",
+    "tool": "built-in image_gen",
+    "date": "2026-10-17",
+    "revision": "clean-flat-v2",
+    "prompt": "Generate ONE isolated chibi portrait of Magus (鬼火) from Zenless Zone Zero, the MECHANICAL DRAGON-HEAD GUN in the upper right of reference image 1. Do not draw the orange-haired girl at all. Image 2 is ONLY the clean flat matte drawing style reference. User explicitly chose official mechanical gun identity, NOT a human and NOT a living dragon. Faithfully simplify the red-and-charcoal angular dragon-shaped weapon head: single squared dark muzzle at snout with orange bore, yellow eye-like aperture, red jaw panels, angular tooth-like steel edges, tall narrow gray fin on top and swept metal side fins. Include a short curved segmented red/gray mechanical neck below, terminating as a cropped portrait, NO human arms, no legs, no flesh, no wings, no rounded organic dragon body. Cute slightly stern commander expression achieved by yellow eye geometry, 3/4 view, no flames hiding geometry. Thin crisp outlines, flat colors, only one restrained hard-edged shadow, no metallic glossy rendering, no gradients, no oily paint, no heavy highlights. Large centered head, generous safe margins. Transparent background, 1:1 square. No rings, no decorations, no text or watermark. This is the mechanical companion's separate chat avatar and display art.",
+    "references": [
+      "web/assets/obol-orphie-stand.png",
+      "web/assets/obol-seed-avatar.png"
+    ],
+    "output": "web/assets/obol-magus-avatar.png",
+    "generatedOriginal": "C:\\Users\\misak\\.codex\\generated_images\\01a145af-95fa-7fb1-a91e-66f8f7f6a4a1\\exec-3ac6021f-059d-4e2e-8e3c-09f278a4b5b1.png",
+    "transparent_background": true
+  },
+  {
+    "id": "orphie",
+    "name": "奥菲丝",
+    "tool": "built-in image_gen",
+    "date": "2026-10-17",
+    "revision": "clean-flat-v2",
+    "prompt": "Create one NEW square chibi chat avatar. Image 1 is the ONLY character identity reference; image 2 is STYLE ONLY: match its airy simple anime sticker aesthetic. The user explicitly wants a fresh clean illustration, NOT thick oily rendered painting. Fine restrained outlines, flat matte color shapes, only tiny hard-edge cel shadows, no painterly texture, no glossy hair, no skin shine, no excessive eye reflections, no gradients. Head occupies 65%, bust portrait, simple cute proportions, calm neutral framing with generous margins, fully clothed shoulders, uniform very pale blue/off-white plain background, no ring, no border, no words, no watermark. Do not transfer blue hair or flowers from style reference. Subject: Orphie (奥菲丝) from Zenless Zone Zero. Vivid but softly colored orange long hair flowing behind her shoulders, side-parted thick bangs, green eyes with only ONE white dot each, dark gray navy beret with small metallic emblem, dark large mechanical fittings beside head with yellow lines, small pointed ears. Charcoal high-collar tactical jacket with muted yellow lining and a silver circular clasp. Gentle slightly shy smile, natural and friendly. NO mechanical dragon in this avatar; only Orphie.",
+    "references": [
+      "web/assets/obol-orphie-stand.png",
+      "web/assets/obol-seed-avatar.png"
+    ],
+    "output": "web/assets/obol-orphie-avatar.png",
+    "generatedOriginal": "C:\\Users\\misak\\.codex\\generated_images\\01a145af-95fa-7fb1-a91e-66f8f7f6a4a1\\exec-caf72233-e74a-4496-a7c9-1bb457afa967.png",
+    "transparent_background": false
+  },
+  {
+    "id": "trigger",
+    "name": "扳机",
+    "tool": "built-in image_gen",
+    "date": "2026-10-17",
+    "revision": "clean-flat-v2",
+    "prompt": "Create one NEW square chibi chat avatar. Image 1 is the ONLY character identity reference; image 2 is STYLE ONLY: match its airy simple anime sticker aesthetic. The user explicitly wants a fresh clean illustration, NOT thick oily rendered painting. Fine restrained outlines, flat matte color shapes, only tiny hard-edge cel shadows, no painterly texture, no glossy hair, no skin shine, no excessive eye reflections, no gradients. Head occupies 65%, bust portrait, simple cute proportions, calm neutral framing with generous margins, fully clothed shoulders, uniform very pale blue/off-white plain background, no ring, no border, no words, no watermark. Do not transfer blue hair or flowers from style reference. Subject: Trigger (扳机) from Zenless Zone Zero. Pale blonde hair with long side bangs, back ponytail, two RED triangular mechanical temple ornaments. Large dark navy angular visor COMPLETELY HIDING BOTH EYES and upper face, small gentle smile beneath. Do not draw visible eyes and do not render shiny visor reflections. Dark gray camouflage high-collar tactical outfit with mustard yellow chest armor and gray throat plate. Reserved warm expression. No rifle blocking face.",
+    "references": [
+      "web/assets/obol-trigger-stand.png",
+      "web/assets/obol-seed-avatar.png"
+    ],
+    "output": "web/assets/obol-trigger-avatar.png",
+    "generatedOriginal": "C:\\Users\\misak\\.codex\\generated_images\\01a145af-95fa-7fb1-a91e-66f8f7f6a4a1\\exec-53a497ea-1dd5-42e5-9c5f-de9756a421bf.png",
+    "transparent_background": false
+  },
+  {
+    "id": "soldier11",
+    "name": "11号",
+    "tool": "built-in image_gen",
+    "date": "2026-10-17",
+    "revision": "clean-flat-v2",
+    "prompt": "Create one NEW square chibi chat avatar. Image 1 is the ONLY character identity reference; image 2 is STYLE ONLY: match its airy simple anime sticker aesthetic. The user explicitly wants a fresh clean illustration, NOT thick oily rendered painting. Fine restrained outlines, flat matte color shapes, only tiny hard-edge cel shadows, no painterly texture, no glossy hair, no skin shine, no excessive eye reflections, no gradients. Head occupies 65%, bust portrait, simple cute proportions, calm neutral framing with generous margins, fully clothed shoulders, uniform very pale blue/off-white plain background, no ring, no border, no words, no watermark. Do not transfer blue hair or flowers from style reference. Subject: Soldier 11 (11号) from Zenless Zone Zero. Cold silver-white short bob with a HIGH tied short ponytail tuft and orange-red tie. Amber orange eyes behind translucent yellow tactical goggles. Dark charcoal and mustard yellow neck scarf, dark gray tactical outfit with straps. Serious but adorable composed expression. Flat yellow goggles with no glare. Must NOT use Anby's forehead headband, braids, or outfit.",
+    "references": [
+      "web/assets/obol-soldier11-stand.png",
+      "web/assets/obol-seed-avatar.png"
+    ],
+    "output": "web/assets/obol-soldier11-avatar.png",
+    "generatedOriginal": "C:\\Users\\misak\\.codex\\generated_images\\01a145af-95fa-7fb1-a91e-66f8f7f6a4a1\\exec-9c37fe98-4f5c-4143-8411-545d59150bcc.png",
+    "transparent_background": false
+  },
+  {
+    "id": "silver-anby",
+    "name": "白银安比",
+    "tool": "built-in image_gen",
+    "date": "2026-10-17",
+    "revision": "clean-flat-v2",
+    "prompt": "Create one NEW square chibi chat avatar. Image 1 is the ONLY character identity reference; image 2 is STYLE ONLY: match its airy simple anime sticker aesthetic. The user explicitly wants a fresh clean illustration, NOT thick oily rendered painting. Fine restrained outlines, flat matte color shapes, only tiny hard-edge cel shadows, no painterly texture, no glossy hair, no skin shine, no excessive eye reflections, no gradients. Head occupies 65%, bust portrait, simple cute proportions, calm neutral framing with generous margins, fully clothed shoulders, uniform very pale blue/off-white plain background, no ring, no border, no words, no watermark. Do not transfer blue hair or flowers from style reference. Subject: Soldier 0 / Silver Anby (白银安比) from Zenless Zone Zero, use the SILVER combat appearance. Silver-white bob with small outward tufts, TWO little braids at nape, black forehead headband with golden emblem, clear amber yellow eyes with only one white dot each. White silver cool gray combat uniform with dark shoulder pads and small orange neck accent, upper arms covered by shoulder armor. Calm stoic cute expression. NO goggles, no high ponytail, no lime green jacket.",
+    "references": [
+      "web/assets/obol-silver-anby-stand.png",
+      "web/assets/obol-seed-avatar.png"
+    ],
+    "output": "web/assets/obol-silver-anby-avatar.png",
+    "generatedOriginal": "C:\\Users\\misak\\.codex\\generated_images\\01a145af-95fa-7fb1-a91e-66f8f7f6a4a1\\exec-ad7191be-d2fb-417b-a573-4a9163af7129.png",
+    "transparent_background": false
+  }
+]

@@ -1,0 +1,4 @@
+[
+  {"providerId": "gpt", "model": "gpt-6-astra", "name": "GPT · Astra"},
+  {"providerId": "custom", "model": "gemini-4-argon", "name": "自定义 API · Gemini 4 Argon"}
+]

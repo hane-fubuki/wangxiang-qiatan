@@ -1,0 +1,15 @@
+[
+  {
+    "id": "lumine",
+    "kind": "stand",
+    "path": "web/assets/protagonist-lumine-stand.png",
+    "skillPath": "assets/stand.png",
+    "page": "https://wiki.biligame.com/ys/旅行者",
+    "url": "https://patchwiki.biligame.com/images/ys/1/1a/s5vmqg34ajw042j1c5l05nw13rogd4g.png",
+    "retrieved": "2026-10-17",
+    "sourceType": "BWIKI-hosted public game artwork",
+    "notes": "Public original character introduction artwork. Source bytes were JPEG despite .png URL; normalized losslessly from decoded pixels to PNG. No visual retouching.",
+    "sha256": "52f09ebad630d9a396f74f456d5f2d14de96311a43a832ec9e7dfda1f555f051",
+    "sourceSha256": "76bfbfb61ff20ffa6e7a7460a3ed498c6243cf7e2450222ffa54c7b1d25170ae"
+  }
+]

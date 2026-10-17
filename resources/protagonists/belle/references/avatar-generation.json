@@ -1,0 +1,11 @@
+{
+  "id": "belle",
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "reference": "references/stand-before-cutout.png",
+  "asset": "assets/avatar.png",
+  "webAsset": "web/assets/protagonist-belle-avatar.png",
+  "transparentBackground": true,
+  "prompt": "Create one clean chibi avatar of Belle (玲), the female protagonist from Zenless Zone Zero, faithfully using the supplied full-body character art as identity reference. Square composition, single character, head and upper chest filling the frame, clear at 48px. Dark blue-violet short bob with the same swept fringe and ahoge, orange lightning hair clip on the same side, turquoise green eyes and asymmetrical orange and turquoise earrings, black shirt and light beige hood with orange lining. Friendly lively expression with a tiny knowing grin, a natural lighthearted conversational observer, not exaggerated. Crisp moderately bold outlines, flat pastel cel shading, simple shapes, polished anime sticker aesthetic, no oily glossy rendering, no photorealism. Arms and hands entirely outside frame, no fingers. Transparent background. No text, watermark, logos, weapons, second character, speech bubble or additional accessories. Maintain clothing and identity consistency, chibi proportions without changing character identity.",
+  "sha256": "fefb4ed48092e027e0c261622e4e4ff7527040e6272111b3f6b68e12083ab9fb"
+}

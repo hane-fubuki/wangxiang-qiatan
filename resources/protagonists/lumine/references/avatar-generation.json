@@ -1,0 +1,11 @@
+{
+  "id": "lumine",
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "reference": "assets/stand.png",
+  "asset": "assets/avatar.png",
+  "webAsset": "web/assets/protagonist-lumine-avatar.png",
+  "transparentBackground": true,
+  "prompt": "Create one clean chibi avatar of Lumine (荧), the female Traveler from Genshin Impact, faithfully using the supplied official character art only as identity reference. Square composition, single character, head and upper chest filling the frame, clear at 48px. Short golden blonde hair with the same longer sidelocks, white flowers with pale blue accents at the same side, amber eyes, white and pale blue outfit with gold details. Calm attentive expression with a tiny amused smile, subtle rather than smug. Crisp moderately bold outlines, flat pastel cel shading, simple shapes, polished anime sticker aesthetic, no oily glossy rendering, no photorealism. Arms and hands entirely outside frame, no fingers. Transparent background. Do not copy the source card layout, any writing, borders or logos; no text, watermark, props, second character or speech bubble. This is a user avatar for the Wangsheng room, not a child version or a duplicate AI character.",
+  "sha256": "71f9108002fdc04f73ea5da57c5aaaed203e46db163edda81e8a37707e3c2959"
+}

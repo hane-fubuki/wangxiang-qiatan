@@ -1,0 +1,119 @@
+/* 随便观 · Yixuan's silver hair, ink-black cloth and golden outer coat. */
+body.yunkui-theme { --accent:#957021; --muted:#737468; --border:#dedbcf; --surface:#fffef8; color:#282d2b; background:#f5f4ed; }
+.app-shell.yunkui-room { color:#282d2b; background:#f5f4ed; }
+.yunkui-room .sidebar { background:#202323; color:#eae9df; border-color:#353c39; padding-top:25px; }
+.yunkui-room .brand { font:700 19px 'Microsoft Yahei',sans-serif; letter-spacing:0; gap:10px; padding:0 0 24px; color:#f7efd7; }
+.yunkui-room .brand small { font:10px 'Microsoft Yahei',sans-serif; color:#c7b987; letter-spacing:3px; margin-top:9px; }
+.yunkui-room .brand-mark { background:none; border:0; width:43px; height:43px; transform:none; }
+.yunkui-room .brand-mark img { width:43px; height:43px; }
+.yunkui-room .room-category-label,.yunkui-room .sidebar-section { color:#b7bba9; font-size:11px; letter-spacing:2px; }
+.yunkui-room .room-button { color:#c6c9bd; border-radius:7px; margin:3px 0; padding:11px; }
+.yunkui-room .room-button:hover { background:#303735; color:#fff5d9; }
+.yunkui-room .room-button.active { background:#e9c262; color:#262b28; box-shadow:none; }
+.yunkui-room .room-button.active svg { color:#303b32; }
+.yunkui-room .primary,.yunkui-room .send-button { background:#e9c262; color:#252b27; }
+.yunkui-room .primary:hover,.yunkui-room .send-button:hover { background:#f2d78c; }
+.yunkui-room .new-chat { margin-top:15px; border-radius:7px; }
+.yunkui-room .new-chat kbd { background:#2f352310; color:#5b542e; }
+.yunkui-room .search { border:1px solid #4c534b; border-radius:6px; color:#bbc2b5; }
+.yunkui-room .search input { color:#f5f5e6; }
+.yunkui-room .search input::placeholder { color:#a7aea2; }
+.yunkui-room .search-slash { border-color:#565f52; color:#bfc7b3; }
+.yunkui-room .chat-item { color:#c2c7ba; border-radius:5px; }
+.yunkui-room .chat-item:hover,.yunkui-room .chat-item.active { background:#353e35; color:#f6df9d; }
+.yunkui-room .list-empty { color:#a6af9c; }
+.yunkui-room .sidebar-bottom,.yunkui-room .settings-open { border-color:#46503f; color:#e9ebd9; }
+.yunkui-room .settings-open small,.yunkui-room .settings-open [data-icon] { color:#b9c3ab; }
+.yunkui-room .local-badge { background:#2b332a; border-color:#43513c; color:#c8d0bb; }
+.yunkui-room .local-badge small { color:#b3bda5; }
+.yunkui-room .workspace { background:#f5f4ed; }
+.yunkui-room .topbar { background:#fffef8; border-color:#dedbcf; height:58px; padding:0 28px; }
+.yunkui-room .breadcrumb,.yunkui-room .private-label,.yunkui-room .topbar-actions { color:#6e7566; }
+.yunkui-room .breadcrumb strong { color:#374031; }
+.yunkui-room .chat-heading { margin:22px 28px 0; padding:26px 29px 24px; border:1px solid #343a34; border-radius:9px; background:#252b29; color:#fff9e8; position:relative; overflow:hidden; isolation:isolate; flex-shrink:0; }
+.yunkui-room .chat-heading::before { content:''; position:absolute; width:218px; height:218px; right:32px; top:-27px; border:1px solid #b59c5960; border-radius:50%; box-shadow:0 0 0 23px #c5aa5520,0 0 0 24px #b59c5930,0 0 0 46px #c5aa5510; z-index:-1; }
+.yunkui-room .chat-heading::after { content:'随\A心'; white-space:pre; position:absolute; right:37px; top:21px; font:700 47px/1.15 'KaiTi','STKaiti',serif; color:#e2c677; border-left:1px solid #d4b65870; padding-left:25px; letter-spacing:4px; z-index:-1; transform:rotate(-5deg); }
+.yunkui-room .chat-heading > div { max-width:calc(100% - 115px); }
+.yunkui-room .chat-heading .eyebrow { color:#d5c082; font-size:10px; letter-spacing:2px; display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+.yunkui-room .chat-heading .room-kind { color:#c9cdbb; background:#ffffff08; border:1px solid #666b54; border-radius:3px; font-size:9px; margin:0; }
+.yunkui-room .chat-heading h1 { color:#fff5da; font:700 clamp(28px,2.8vw,42px)/1.2 'KaiTi','STKaiti','Microsoft Yahei',serif; letter-spacing:3px; margin:13px 0 10px; }
+.yunkui-room .chat-heading p { color:#c6cbbb; font-size:12px; line-height:1.8; }
+.yunkui-room .messages { padding:0 28px 22px; max-width:1200px; }
+.yunkui-room .empty-state { padding:21px 0 5px; max-width:none; }
+.yunkui-room .character-stage[data-character-count="4"] { display:grid; grid-template-columns:repeat(4,minmax(112px,1fr)); height:auto; gap:10px; padding:0 0 13px; background:none; overflow-x:auto; }
+.yunkui-room .stage-character { height:258px; padding:0; background:#fffdf5; border:1px solid #d6d4c5; border-radius:7px; overflow:hidden; justify-content:space-between; }
+.yunkui-room .stage-character > .character-art { height:204px; width:100%; flex:1; min-height:0; padding:10px 4px 0; background:radial-gradient(ellipse at 50% 65%,#ead9a54a,transparent 68%),linear-gradient(135deg,#fffdf5,#edece0); }
+.yunkui-room .stage-character > .character-art img { height:100%; object-fit:contain; object-position:center; filter:drop-shadow(0 7px 6px #282d2814); }
+.yunkui-room .stage-character:hover { border-color:#a6893d; box-shadow:0 3px 10px #554c2514; }
+.yunkui-room .stage-character.out-of-party { opacity:.5; }
+.yunkui-room .stage-name { width:100%; max-width:none; min-width:0; min-height:52px; margin:0; border:0; border-radius:0; border-top:1px solid #e0dbbf; background:#fcf9e9; padding:8px; gap:7px; }
+.yunkui-room .stage-avatar { display:block; width:31px; height:31px; border-radius:50%; }
+.yunkui-room .stage-name strong { color:#333e2c; font-size:12px; text-align:left; }
+.yunkui-room .stage-name small { color:#6e775c; font-size:10px; text-align:left; }
+.yunkui-room .stage-character[aria-pressed="true"] { border-color:#b49b48; box-shadow:0 0 0 1px #b49b4840; }
+.yunkui-room .stage-character[aria-pressed="true"] .stage-name { background:#f5ebc7; }
+.yunkui-room .prompt-card .prompt-icon { background:#f5edcc; color:#887027; }
+.yunkui-room .icon-button:hover { background:#e9e8d8; color:#6e5c28; }
+.yunkui-room .mention-button.is-private,.yunkui-room #scene-button { color:#6b633d; background:#f1ead3; }
+.yunkui-room .welcome-copy h2 { color:#35412f; font:600 20px 'KaiTi','Microsoft Yahei',serif; text-align:left; margin:11px 0 8px; }
+.yunkui-room .empty-state > p { color:#6c7461; font-size:12px; text-align:left; line-height:1.8; margin:0 0 16px; }
+.yunkui-room .gpt-welcome-note { color:#7a806f; font-size:10px; }
+.yunkui-room .prompt-grid { gap:10px; }
+.yunkui-room .prompt-card { padding:15px 12px; gap:10px; background:#fffdf6; border:1px solid #d6d5c2; border-radius:6px; box-shadow:0 2px 0 #e8e5d5; }
+.yunkui-room .prompt-card:hover { background:#faf6e6; border-color:#b5a364; transform:translateY(-2px); }
+.yunkui-room .prompt-icon { color:#887027; background:#f5edcc; border-radius:50%; width:33px; height:33px; }
+.yunkui-room .prompt-card strong { color:#3e482e; font-size:12px; }
+.yunkui-room .prompt-card small,.yunkui-room .prompt-arrow { color:#73795e; font-size:11px; }
+.yunkui-room .starter-status,.yunkui-room .empty-foot { color:#767c69; font-size:11px; }
+.yunkui-room .chat-scroll { scrollbar-color:#c3c6ae transparent; }
+.yunkui-room .composer-area { background:#f5f4ed; border-top:1px solid #dedccc; padding:11px 28px 15px; }
+.yunkui-room .composer { background:#fffef9; border:1px solid #b7b99e; border-radius:8px; padding:11px 14px 10px; box-shadow:0 3px 0 #e7e5d7; }
+.yunkui-room .composer:focus-within { border-color:#a58b42; box-shadow:0 0 0 3px #d1b65120; }
+.yunkui-room .composer textarea { color:#35422e; font-size:13px; min-height:48px; }
+.yunkui-room .composer textarea::placeholder { color:#7b826e; }
+.yunkui-room .composer-participants { overflow-x:auto; scrollbar-width:thin; }
+.yunkui-room .participant-chip { color:#5a6644; background:#eef0df; border-radius:4px; flex-shrink:0; }
+.yunkui-room .participant-chip.yixuan { color:#806317; background:#f3e9c1; }
+.yunkui-room .composer-hints,.yunkui-room .composer-footer,.yunkui-room .composer-tool,.yunkui-room .mention-button,.yunkui-room .composer-footer button { color:#66734f; }
+.yunkui-room #web-search-toggle { background:#edf0df; color:#546a40; border-color:#d0d9bd; }
+.yunkui-room .send-button { width:38px; height:38px; border-radius:6px; }
+.yunkui-room .composer-footer { font-size:10px; }
+.yunkui-room .composer-divider { background:#d3d7bf; }
+.yunkui-room .right-panel { background:#eeeee3; border-color:#d8dac9; padding:25px 19px 20px; }
+.yunkui-room .panel-heading { border-bottom:2px solid #bd9c45; padding-bottom:12px; }
+.yunkui-room .panel-heading h2,.yunkui-room .panel-section-heading h2 { color:#3d4932; }
+.yunkui-room .count-pill { background:#e6dfbb; color:#756124; }
+.yunkui-room .panel-subtitle,.yunkui-room .portrait-caption p { color:#6c765c; font-size:11px; line-height:1.8; }
+.yunkui-room .character-preview { background:#fffdf2; border:1px solid #d0d4bb; border-radius:7px; }
+.yunkui-room .character-preview > .character-art { height:202px; background:radial-gradient(circle,#ebe8c8,transparent 65%); }
+.yunkui-room .portrait-caption { background:#29332c; border:0; padding:13px 15px; }
+.yunkui-room .portrait-caption strong { color:#f3e7b5; font:700 22px 'KaiTi','Microsoft Yahei',serif; }
+.yunkui-room .portrait-caption p,.yunkui-room .portrait-kicker { color:#c1c9aa; font-size:10px; }
+.yunkui-room .provider-card { border:1px solid #d2d6c0; border-radius:6px; background:#fafbf1; padding:12px 10px; }
+.yunkui-room .provider-card.inactive { background:#e8ebdc; }
+.yunkui-room .provider-name,.yunkui-room .provider-name strong { color:#394830; }
+.yunkui-room .provider-name small,.yunkui-room .provider-state { color:#6b765a; font-size:11px; }
+.yunkui-room .provider-toggle { background:#b3bda0; }
+.yunkui-room .provider-toggle[aria-checked="true"] { background:#7d8d4f; }
+.yunkui-room .character-model-select,.yunkui-room select { background:#fffef8; border-color:#ced4bb; color:#425434; }
+.yunkui-room .connection-button { color:#796525; border-color:#d9d1ac; }
+.yunkui-room .mode-button { color:#687756; border-color:#d4dcc4; background:#f7faee; }
+.yunkui-room .mode-button.selected { background:#f4edcc; border-color:#b5a054; color:#655522; }
+.yunkui-room .mode-button small,.yunkui-room .rounds-control,.yunkui-room .research-settings-note,.yunkui-room .panel-footnote,.yunkui-room .connection-status { color:#65764e; }
+.yunkui-room .discussion-note { color:#6b784d; background:#e6ecd7; border-color:#d2dbbf; }
+.yunkui-room .discussion-note span { color:#6c7955; }
+.yunkui-room .message-author { color:#3d4a32; }
+.yunkui-room .message-bubble { background:#fffef6; border-color:#dedcc9; color:#33452d; }
+.yunkui-room .message.user .message-bubble { background:#f4ebca; border-color:#dfd4a7; }
+body.yunkui-theme dialog { color:#34432d; background:#fffef6; border:1px solid #c4c9ad; }
+body.yunkui-theme dialog .eyebrow { color:#87712c; }
+body.yunkui-theme dialog input,body.yunkui-theme dialog textarea,body.yunkui-theme dialog select { background:#fffef9; color:#3d4e32; border-color:#cdd4b7; }
+body.yunkui-theme dialog .primary { background:#e9c262; color:#2d3427; }
+body.yunkui-theme dialog .secondary { background:#edf1df; color:#5b6b42; border-color:#d0d9bb; }
+body.yunkui-theme dialog .dialog-description,body.yunkui-theme dialog .setup-note,body.yunkui-theme dialog .skill-version { color:#6b7858; }
+body.yunkui-theme dialog .skill-base,body.yunkui-theme dialog .skill-history { background:#f0f2e4; border-color:#d7ddc4; }
+body.yunkui-theme .toast { background:#28382a; color:#f7edc9; }
+@media(min-width:1500px) { .yunkui-room .stage-character { height:300px; } .yunkui-room .stage-character > .character-art { height:246px; } }
+@media(max-width:1200px) { .yunkui-room .chat-heading { margin:16px 20px 0; padding:23px; } .yunkui-room .messages { padding:0 20px 20px; } .yunkui-room .composer-area { padding:10px 20px 13px; } .yunkui-room .stage-character { height:234px; } .yunkui-room .stage-character > .character-art { height:180px; } }
+@media(max-width:700px) { .yunkui-room .topbar { padding:0 14px; } .yunkui-room .chat-heading { margin:12px 14px 0; padding:20px; } .yunkui-room .chat-heading h1 { font-size:28px; letter-spacing:1px; } .yunkui-room .chat-heading > div { max-width:calc(100% - 49px); } .yunkui-room .chat-heading::after { right:15px; font-size:30px; padding-left:11px; top:37px; } .yunkui-room .chat-heading::before { right:-112px; } .yunkui-room .messages { padding:0 14px 18px; } .yunkui-room .character-stage[data-character-count="4"] { grid-template-columns:repeat(2,minmax(0,1fr)); overflow:visible; gap:10px; } .yunkui-room .stage-character { height:240px; } .yunkui-room .stage-character > .character-art { height:185px; } .yunkui-room .prompt-grid { grid-template-columns:1fr; } .yunkui-room .composer-area { padding:10px 13px 12px; } .yunkui-room .composer-hints { gap:5px; flex-wrap:wrap; } .yunkui-room .composer-bottom { align-items:flex-end; } .yunkui-room .right-panel { width:min(320px,100vw); } }
+@media(prefers-reduced-motion:reduce) { .yunkui-room *, .yunkui-room *::before, .yunkui-room *::after { transition:none!important; animation:none!important; } }

@@ -1,0 +1,13 @@
+{
+  "id": "belle",
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "operation": "background removal",
+  "source": "references/stand-before-cutout.png",
+  "asset": "assets/stand.png",
+  "webAsset": "web/assets/protagonist-belle-stand.png",
+  "transparentBackground": true,
+  "prompt": "Edit the supplied full-body illustration of Belle (铃). Remove only the solid black background and replace it with genuine transparent alpha. Preserve the entire character exactly: original face, hair strands, orange hair clip, earrings, outfit printed markings, dark sleeves, skirt, orange details, bag, handheld device, clasped hands, asymmetrical socks, shoes, exact pose, proportions and original flat anime linework and colors. Keep black areas INSIDE the character such as the dark clothing and hair; remove black only from the background and the empty spaces between limbs and accessories. Carefully preserve fine hair edges, straps and outlines. No redraw, no restyling, no added details, no retouching of anatomy, no cropped feet or hair, no cast shadow, no background, no text added. Output a clean full-body transparent PNG cutout.",
+  "sourceSha256": "ebe8115c612af5ca9a9a2475245d0b824ebad760c6809b03dc546c595498af52",
+  "sha256": "da52dae758dbfcfbb9ebded21ee6530bb84dd2bda7313cad6b6bf6b7a2ff456b"
+}

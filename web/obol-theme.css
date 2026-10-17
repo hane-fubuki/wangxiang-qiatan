@@ -1,0 +1,124 @@
+/* 404 / Seed — porcelain panels, ice-blue circuitry, four-petal connectors. */
+body.obol-theme{--accent:#2d6d82;--muted:#657c87;--border:#d5e1e6;--surface:#fff;color:#243e4b;background:#f1f6f8}
+.app-shell.obol-room{color:#243e4b;background:#f1f6f8}
+.obol-room .sidebar{background:#172a32;color:#dbe7eb;border-color:#31454f;padding-top:24px}
+.obol-room .brand{font:700 22px 'Segoe UI','Microsoft Yahei',sans-serif;letter-spacing:1px;gap:11px;padding:0 2px 25px;color:#f1fafc}
+.obol-room .brand small{font:9px 'Segoe UI',sans-serif;color:#97b7c5;letter-spacing:2px;margin-top:9px}
+.obol-room .brand-mark{background:none;border:0;width:42px;height:42px;transform:none}
+.obol-room .brand-mark img{width:42px;height:42px}
+.obol-room .room-category-label,.obol-room .sidebar-section{color:#a1b8c3;font-size:11px;letter-spacing:1px}
+.obol-room .room-button{color:#b7cbd3;border-radius:5px;margin:3px 0;padding:10px 11px;border:1px solid transparent}
+.obol-room .room-button:hover{background:#263f4a;color:#effaff}
+.obol-room .room-button.active{background:#a5dce8;color:#173947;border-color:#a5dce8;box-shadow:none}
+.obol-room .room-button.active svg{color:#244e5f}
+.obol-room .primary,.obol-room .send-button{background:#a5dce8;color:#173b49}
+.obol-room .primary:hover,.obol-room .send-button:hover{background:#c0e8ee}
+.obol-room .new-chat{margin-top:15px;border-radius:5px;border-bottom:3px solid #6ca4b7}
+.obol-room .new-chat kbd{background:#173b4912;color:#395d6a;font-size:10px}
+.obol-room .search{border:1px solid #3d5661;border-radius:4px;color:#9db6c2;margin-top:19px}
+.obol-room .search input{color:#f0f8fb}
+.obol-room .search input::placeholder{color:#a2b5be}
+.obol-room .search-slash{border-color:#536a76;color:#b4c9d4}
+.obol-room .chat-item{color:#b8cad3;border-radius:4px}
+.obol-room .chat-item:hover,.obol-room .chat-item.active{background:#29434f;color:#d7f2f7}
+.obol-room .list-empty{color:#a2b9c4}
+.obol-room .sidebar-bottom,.obol-room .settings-open{border-color:#39515c;color:#d8e5eb}
+.obol-room .settings-open small,.obol-room .settings-open [data-icon]{color:#a0b9c5}
+.obol-room .local-badge{background:#1c333e;border-color:#3a535e;color:#bdd2db}
+.obol-room .local-badge small{color:#a1b9c5}
+.obol-room .workspace{background:#f1f6f8}
+.obol-room .topbar{background:#fbfdfe;border-color:#d5e1e6;height:58px;padding:0 26px}
+.obol-room .breadcrumb,.obol-room .private-label,.obol-room .topbar-actions{color:#66808d}
+.obol-room .breadcrumb strong{color:#304f60}
+.obol-room .chat-heading{margin:20px 26px 0;padding:25px 28px 24px;border:1px solid #354e59;border-radius:8px;background:#1b333f;color:#f4fafc;position:relative;overflow:hidden;isolation:isolate;flex-shrink:0}
+.obol-room .chat-heading::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 97%,#a5dce809 97%),linear-gradient(0deg,transparent 97%,#a5dce809 97%);background-size:24px 24px;z-index:-1}
+.obol-room .chat-heading::after{content:'404';position:absolute;right:28px;top:20px;font:800 83px/1 'Segoe UI',sans-serif;letter-spacing:-7px;color:#a5dce817;z-index:-1;border-bottom:3px solid #edbe4a6b;padding-bottom:5px}
+.obol-room .chat-heading>div{max-width:calc(100% - 90px)}
+.obol-room .chat-heading .eyebrow{color:#9ed8e8;font-size:10px;letter-spacing:2px;display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.obol-room .chat-heading .room-kind{color:#c2d9e3;background:#314a5740;border:1px solid #506a77;border-radius:3px;font-size:9px;letter-spacing:0;margin:0}
+.obol-room .chat-heading h1{color:#edf9fc;font:700 clamp(29px,2.7vw,40px)/1.2 'Segoe UI','Microsoft Yahei',sans-serif;letter-spacing:2px;margin:14px 0 10px}
+.obol-room .chat-heading p{color:#bfd2db;font-size:12px;line-height:1.9;max-width:560px}
+.obol-room .messages{padding:0 26px 22px;max-width:1260px}
+.obol-room .empty-state{padding:20px 0 7px;max-width:none}
+.obol-room .character-stage[data-character-count="6"]{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));height:auto;gap:10px;padding:0 0 16px;overflow:visible;background:none}
+.obol-room .stage-character{height:223px;min-width:0;padding:0;background:#fff;border:1px solid #cddde5;border-radius:6px;overflow:hidden;justify-content:space-between;position:relative}
+.obol-room .stage-character::before{content:'';position:absolute;top:9px;left:10px;width:15px;height:15px;border-top:2px solid #90bdcc;border-left:2px solid #90bdcc;z-index:1;pointer-events:none}
+.obol-room .stage-character>.character-art{height:173px;width:100%;flex:1;min-height:0;padding:8px 6px 0;background:linear-gradient(135deg,#f7fafb 60%,#eaf2f5 60%)}
+.obol-room .stage-character>.character-art img{height:100%;object-fit:contain;object-position:center;filter:none}
+.obol-room .stage-character.stage-seed{border-color:#85b5c7}
+.obol-room .stage-character.stage-magus>.character-art{padding:15px}
+.obol-room .stage-character:hover{border-color:#568d9f;box-shadow:0 3px 9px #244b5e12;transform:translateY(-2px)}
+.obol-room .stage-character.out-of-party{opacity:.45}
+.obol-room .stage-name{width:100%;max-width:none;min-width:0;min-height:49px;margin:0;border:0;border-top:1px solid #d9e4e8;border-radius:0;background:#f8fbfc;padding:7px 10px;gap:8px}
+.obol-room .stage-avatar{display:block;width:30px;height:30px;border-radius:6px;overflow:hidden}
+.obol-room .stage-name strong{color:#294b5b;font-size:12px;text-align:left;white-space:nowrap}
+.obol-room .stage-name small{color:#738a96;font-size:10px;text-align:left}
+.obol-room .stage-character[aria-pressed="true"]{border-color:#4b8ca2;box-shadow:0 0 0 1px #73b4c736}
+.obol-room .stage-character[aria-pressed="true"] .stage-name{background:#e6f3f7}
+.obol-room .welcome-copy h2{color:#2b4e5e;font:600 20px 'Segoe UI','Microsoft Yahei',sans-serif;text-align:left;margin:8px 0 10px}
+.obol-room .empty-state>p{color:#627d8b;font-size:12px;text-align:left;line-height:1.8;margin:0 0 17px}
+.obol-room .gpt-welcome-note{color:#758b95;font-size:10px}
+.obol-room .prompt-grid{gap:10px}
+.obol-room .prompt-card{padding:15px 12px;gap:10px;background:#fff;border:1px solid #cedee5;border-radius:5px;box-shadow:none}
+.obol-room .prompt-card:hover{background:#f4fbfd;border-color:#7daebf;transform:translateY(-2px)}
+.obol-room .prompt-card .prompt-icon{color:#3c788e;background:#e7f3f7;border-radius:6px;width:32px;height:32px}
+.obol-room .prompt-card strong{color:#315364;font-size:12px}
+.obol-room .prompt-card small,.obol-room .prompt-arrow{color:#6a8391;font-size:11px}
+.obol-room .starter-status,.obol-room .empty-foot{color:#708693;font-size:11px}
+.obol-room .chat-scroll{scrollbar-color:#b3ccd7 transparent}
+.obol-room .composer-area{background:#f1f6f8;border-top:1px solid #d5e1e6;padding:11px 26px 15px}
+.obol-room .composer{background:#fff;border:1px solid #afc7d2;border-radius:7px;padding:11px 14px 10px;box-shadow:0 3px 0 #e2ebef}
+.obol-room .composer:focus-within{border-color:#4c93aa;box-shadow:0 0 0 3px #76b9cd22}
+.obol-room .composer textarea{color:#294958;font-size:13px;min-height:48px}
+.obol-room .composer textarea::placeholder{color:#758e9a}
+.obol-room .composer-participants{overflow-x:auto;scrollbar-width:thin;gap:6px}
+.obol-room .participant-chip{color:#466b7e;background:#edf4f7;border-radius:5px;flex-shrink:0;font-size:11px}
+.obol-room .participant-chip.seed{background:#dff3f8;color:#316e85}
+.obol-room .composer-hints,.obol-room .composer-footer,.obol-room .composer-tool,.obol-room .mention-button,.obol-room .composer-footer button{color:#5e7d8c}
+.obol-room .mention-button.is-private,.obol-room #scene-button{color:#43758b;background:#e9f3f7}
+.obol-room #web-search-toggle{background:#e9f4f7;color:#386f83;border-color:#c7dfe8}
+.obol-room .send-button{width:38px;height:38px;border-radius:6px}
+.obol-room .composer-footer{font-size:10px}
+.obol-room .composer-divider{background:#d0e0e8}
+.obol-room .right-panel{background:#eaf1f4;border-color:#cedee5;padding:24px 18px 20px}
+.obol-room .panel-heading{border-bottom:2px solid #7fb8ca;padding-bottom:12px}
+.obol-room .panel-heading h2,.obol-room .panel-section-heading h2{color:#31576a}
+.obol-room .count-pill{background:#d5e9f1;color:#39677c;font-size:10px}
+.obol-room .panel-subtitle,.obol-room .portrait-caption p{color:#688492;font-size:11px;line-height:1.8}
+.obol-room .character-preview{background:#f9fcfd;border:1px solid #c3d8e2;border-radius:6px}
+.obol-room .character-preview>.character-art{height:198px;background:linear-gradient(135deg,#fff 60%,#e6f0f5 60%)}
+.obol-room .preview-magus>.character-art{padding:22px}
+.obol-room .portrait-caption{background:#203c4a;border:0;padding:12px 14px}
+.obol-room .portrait-caption strong{color:#e0f5fa;font:700 22px 'Segoe UI','Microsoft Yahei',sans-serif;letter-spacing:1px}
+.obol-room .portrait-caption p,.obol-room .portrait-kicker{color:#a9c7d4;font-size:10px}
+.obol-room .provider-card{border:1px solid #ccdde5;border-radius:5px;background:#fafcfd;padding:11px 10px}
+.obol-room .provider-card.inactive{background:#e3edf1}
+.obol-room .provider-name,.obol-room .provider-name strong{color:#305266}
+.obol-room .provider-name small,.obol-room .provider-state{color:#6a8593;font-size:10px}
+.obol-room .provider-toggle{background:#a9c4d0}
+.obol-room .provider-toggle[aria-pressed="true"]{background:#5d9bb0}
+.obol-room .character-model-select,.obol-room select{background:#fff;border-color:#c6dbe5;color:#3c667c}
+.obol-room .character-model-label{color:#6d8692}
+.obol-room .connection-button{color:#416f83;border-color:#bfd6e2}
+.obol-room .mode-button{color:#577c90;border-color:#c6dce5;background:#f7fbfd}
+.obol-room .mode-button.selected{background:#e0f0f6;border-color:#7faec1;color:#35687e}
+.obol-room .mode-button small,.obol-room .rounds-control,.obol-room .research-settings-note,.obol-room .panel-footnote,.obol-room .connection-status{color:#5d7c8e}
+.obol-room .discussion-note{color:#5e7c8e;background:#deecf2;border-color:#c2dce7}
+.obol-room .discussion-note span{color:#627f90}
+.obol-room .icon-button:hover{background:#e4f1f7;color:#367890}
+.obol-room .message-author{color:#355f75}
+.obol-room .message-bubble{background:#fff;border-color:#d5e4eb;color:#294c60}
+.obol-room .message.user .message-bubble{background:#e1f2f7;border-color:#bedeea}
+body.obol-theme dialog{color:#2a4c5e;background:#fbfdfe;border:1px solid #b8d2df}
+body.obol-theme dialog .eyebrow{color:#407c95}
+body.obol-theme dialog input,body.obol-theme dialog textarea,body.obol-theme dialog select{background:#fff;color:#30596e;border-color:#bfd7e3}
+body.obol-theme dialog .primary{background:#a5dce8;color:#173b49}
+body.obol-theme dialog .secondary{background:#e6f1f6;color:#47748b;border-color:#c3dce7}
+body.obol-theme dialog .dialog-description,body.obol-theme dialog .setup-note,body.obol-theme dialog .skill-version{color:#5e7b8c}
+body.obol-theme dialog .skill-base,body.obol-theme dialog .skill-history{background:#edf5f8;border-color:#cddfe8}
+body.obol-theme .toast{background:#203e4d;color:#e3f8fc}
+@media(min-width:1700px){.obol-room .character-stage[data-character-count="6"]{grid-template-columns:repeat(6,minmax(0,1fr))}.obol-room .stage-character{height:290px}.obol-room .stage-character>.character-art{height:240px}}
+@media(max-width:1200px){.obol-room .chat-heading{margin:16px 20px 0;padding:22px}.obol-room .messages{padding:0 20px 20px}.obol-room .composer-area{padding:10px 20px 13px}.obol-room .stage-character{height:207px}.obol-room .stage-character>.character-art{height:157px}}
+@media(max-width:700px){.obol-room .topbar{padding:0 13px}.obol-room .chat-heading{margin:12px 13px 0;padding:20px}.obol-room .chat-heading h1{font-size:29px;letter-spacing:1px}.obol-room .chat-heading>div{max-width:100%}.obol-room .chat-heading::after{right:20px;top:30px;font-size:70px;color:#a5dce80e}.obol-room .messages{padding:0 13px 18px}.obol-room .character-stage[data-character-count="6"]{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.obol-room .stage-character{height:228px}.obol-room .stage-character>.character-art{height:178px}.obol-room .prompt-grid{grid-template-columns:1fr}.obol-room .composer-area{padding:9px 12px 12px}.obol-room .composer-hints{gap:5px;flex-wrap:wrap}.obol-room .composer-bottom{align-items:flex-end}.obol-room .right-panel{width:min(320px,100vw)}.obol-room .chat-heading .eyebrow{letter-spacing:1px}}
+@media(prefers-reduced-motion:reduce){.obol-room *,.obol-room *::before,.obol-room *::after{transition:none!important;animation:none!important}}
+@media(max-width:700px){.obol-room .chat-heading::after{border-bottom:0}}

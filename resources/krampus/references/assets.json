@@ -1,0 +1,74 @@
+[
+  {
+    "name": "琉音",
+    "stem": "dialyn",
+    "kind": "stand",
+    "url": "https://patchwiki.biligame.com/images/zzz/2/25/2komc66canwbm3vo5r7tr4eua07a9yl.png",
+    "path": "web\\assets\\krampus-dialyn-stand.png",
+    "sha256": "6be18df340c47aade150bdc296464d86be9197ad4073449536197cf0673cef65"
+  },
+  {
+    "name": "琉音",
+    "stem": "dialyn",
+    "kind": "intro",
+    "url": "https://patchwiki.biligame.com/images/zzz/d/db/t2dpt5nofba2vvjq3eenajxdpfwpstf.png",
+    "path": "web\\assets\\krampus-dialyn-intro.png",
+    "sha256": "1c5fa4e32c2af65b935215b02de8f32fe3f30267e03da4139418003ebc356b83"
+  },
+  {
+    "name": "照",
+    "stem": "zhao",
+    "kind": "stand",
+    "url": "https://patchwiki.biligame.com/images/zzz/d/d5/cffchcbcrmg1o8kus46i233p6tm0l7n.png",
+    "path": "web\\assets\\krampus-zhao-stand.png",
+    "sha256": "717fa908731cc36527734e10df6301198576dd2664d0cddd093979eeb43e800e"
+  },
+  {
+    "name": "照",
+    "stem": "zhao",
+    "kind": "intro",
+    "url": "https://patchwiki.biligame.com/images/zzz/8/86/ja5kmi9kirx7a9d87ji1e9z4pl1wt8r.png",
+    "path": "web\\assets\\krampus-zhao-intro.png",
+    "sha256": "1c8b57ab4aebad497d574bc9adb55ccbca9819a374e32d91a8d6cb560b5751ce"
+  },
+  {
+    "name": "般岳",
+    "stem": "banyue",
+    "kind": "stand",
+    "url": "https://patchwiki.biligame.com/images/zzz/2/25/5s8gwjddeied7s4ax8dcjrb8pzj9apg.png",
+    "path": "web\\assets\\krampus-banyue-stand.png",
+    "sha256": "19a1cdebeddd81c05a5ca56db7bbf2121cf1d788361ea6ee4b19aca93af251bd"
+  },
+  {
+    "name": "般岳",
+    "stem": "banyue",
+    "kind": "intro",
+    "url": "https://patchwiki.biligame.com/images/zzz/a/aa/78m9cmxtv4llk799dlu6vxpb39gifz8.png",
+    "path": "web\\assets\\krampus-banyue-intro.png",
+    "sha256": "e12c42b690b8bbdf0e6150997a2a57d5d73a6678702a7e9bc744fbf304645c8b"
+  },
+  {
+    "name": "普罗米娅",
+    "stem": "promeia",
+    "kind": "stand",
+    "url": "https://patchwiki.biligame.com/images/zzz/7/7c/trf3hcwy4s8ox87dtwkr86j2rebvnls.png",
+    "path": "web\\assets\\krampus-promeia-stand.png",
+    "sha256": "c6f8cfa3e41024d0e70a684bf50c93b2653cd88bd2c7fa07bf7a68c254000d73"
+  },
+  {
+    "name": "普罗米娅",
+    "stem": "promeia",
+    "kind": "intro",
+    "url": "https://patchwiki.biligame.com/images/zzz/e/ec/jfpqzpb68ycf405fzxjcqyytmhbryyu.png",
+    "path": "web\\assets\\krampus-promeia-intro.png",
+    "sha256": "0ccc3ed66299b0ab208126f0c412fbda43f31ac4ffd862b7ad84efd0b296b59c"
+  },
+  {
+    "name": "菲欧妮",
+    "stem": "phoenix",
+    "kind": "stand",
+    "url": "https://fastcdn.mihoyo.com/content-v2/nap/166038/23435e847e5f215fc55135e1524550bb_584790302263727235.png",
+    "path": "web/assets/krampus-phoenix-stand.png",
+    "sha256": "d6a513f5ffe2fc78808bb2397c1215469a4b2a45cbba5d44d8a36096e3ed16a9"
+  }
+]

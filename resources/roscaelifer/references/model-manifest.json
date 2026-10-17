@@ -1,0 +1,110 @@
+{
+  "sourcePage": "https://tstorage.info/cp031zi8or4z",
+  "retrievedAt": "2026-10-17",
+  "sourceClaim": "hiragara; community rehost, not verified as official distribution",
+  "archive": "assets/model-archives/lindverne-default.7z",
+  "bytes": 17721794,
+  "sha256": "e16104f27bb26f359c1eb3c16df241962f964c90e8e7ffceeb871ea9b6d38c6f",
+  "fbxFile": "Avatar_Female_Size02_Lindverne_UI/Avatar_Female_Size02_Lindverne_UI.fbx",
+  "packageFiles": 28,
+  "analysis": {
+    "meshes": [
+      {
+        "name": "Lindverne_Eyebrow",
+        "vertices": 132,
+        "materials": [
+          "MAT_Lindverne_Eyebrows_UI"
+        ]
+      },
+      {
+        "name": "Lindverne_Face",
+        "vertices": 12588,
+        "materials": [
+          "MAT_Lindverne_Eye_UI",
+          "MAT_Lindverne_Eyebrows_UI",
+          "MAT_Lindverne_Face_UI"
+        ]
+      },
+      {
+        "name": "Lindverne_Body_2",
+        "vertices": 16581,
+        "materials": [
+          "MAT_Lindverne_Body_2_UI"
+        ]
+      },
+      {
+        "name": "Lindverne_Body_1",
+        "vertices": 69678,
+        "materials": [
+          "MAT_Lindverne_Body_1_UI",
+          "MAT_Lindverne_Body_1_Part_UI",
+          "MAT_Lindverne_Body_1_T_UI"
+        ]
+      },
+      {
+        "name": "Lindverne_Hair",
+        "vertices": 29925,
+        "materials": [
+          "MAT_Lindverne_Body_2_UI",
+          "MAT_Lindverne_Hair_T_UI"
+        ]
+      },
+      {
+        "name": "Lindverne_HairShadow",
+        "vertices": 10278,
+        "materials": [
+          "MAT_HairShadow_UI"
+        ]
+      }
+    ],
+    "materials": [
+      {
+        "material": "MAT_Lindverne_Eyebrows_UI",
+        "texture": "Lindverne_Face_D"
+      },
+      {
+        "material": "MAT_Lindverne_Eye_UI",
+        "texture": "Lindverne_Face_D"
+      },
+      {
+        "material": "MAT_Lindverne_Face_UI",
+        "texture": "Lindverne_Face_D"
+      },
+      {
+        "material": "MAT_Lindverne_Body_2_UI",
+        "texture": "Lindverne_Body_Map2_D"
+      },
+      {
+        "material": "MAT_Lindverne_Body_1_Part_UI",
+        "texture": "Lindverne_Body_Map1_D"
+      },
+      {
+        "material": "MAT_Lindverne_Body_1_T_UI",
+        "texture": "Lindverne_Body_Map1_D"
+      },
+      {
+        "material": "MAT_Lindverne_Body_1_UI",
+        "texture": "Lindverne_Body_Map1_D"
+      },
+      {
+        "material": "MAT_Lindverne_Hair_T_UI",
+        "texture": "Lindverne_Body_Map2_D"
+      },
+      {
+        "material": "MAT_HairShadow_UI",
+        "texture": null
+      }
+    ],
+    "bones": 374,
+    "vertices": 139182,
+    "triangles": 46394,
+    "initialSize": [
+      0.9474474226759567,
+      1.6774480036533552,
+      0.6074384289185792
+    ]
+  },
+  "vertexCountMeaning": "FBXLoader expanded triangle vertex count, not unique source vertices",
+  "renderMethod": "three 0.186.1, original _MainTex diffuse images, MeshBasicMaterial, double sided, alpha test 0.5; HairShadow hidden; original mesh and rig unchanged",
+  "limits": "No game shader reproduction; no animation, physics or rig behavior validation."
+}

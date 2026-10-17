@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "分房间联网补充资料",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "kind",
+    "authority",
+    "status",
+    "summary",
+    "sources",
+    "terms",
+    "audience",
+    "checkedAt",
+    "savedAt",
+    "id",
+    "sourceMessageId",
+    "conversationId",
+    "roomId"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 2
+    },
+    "kind": {
+      "const": "web_supplement"
+    },
+    "authority": {
+      "const": "reference_only"
+    },
+    "status": {
+      "const": "sourced"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 10000
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "url"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string",
+            "maxLength": 240
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          }
+        }
+      }
+    },
+    "terms": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200
+      },
+      "maxItems": 8
+    },
+    "audience": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9_-]{1,100}$"
+      },
+      "maxItems": 32
+    },
+    "checkedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "savedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "sourceMessageId": {
+      "type": "string"
+    },
+    "conversationId": {
+      "type": "string"
+    },
+    "roomId": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{1,100}$"
+    }
+  }
+}

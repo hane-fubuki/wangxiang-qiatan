@@ -1,0 +1,16 @@
+[
+  {
+    "id": "belle",
+    "kind": "stand",
+    "path": "web/assets/protagonist-belle-stand.png",
+    "skillPath": "assets/stand.png",
+    "page": "https://wiki.biligame.com/zzz/铃",
+    "url": "https://patchwiki.biligame.com/images/zzz/8/85/3hqxmcrfg42v81e57yqsdcwso6v68gc.png",
+    "retrieved": "2026-10-17",
+    "sourceType": "BWIKI-hosted public game artwork",
+    "notes": "Original public full-body artwork has an opaque black background. Current stand is a transparent PNG derived with built-in image_gen background removal; source preserved separately. Not an unedited official asset.",
+    "sha256": "da52dae758dbfcfbb9ebded21ee6530bb84dd2bda7313cad6b6bf6b7a2ff456b",
+    "sourceSha256": "ebe8115c612af5ca9a9a2475245d0b824ebad760c6809b03dc546c595498af52",
+    "sourceBackup": "references/stand-before-cutout.png"
+  }
+]

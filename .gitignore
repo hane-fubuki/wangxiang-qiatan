@@ -1,0 +1,11 @@
+.tavern/
+.env
+__pycache__/
+*.pyc
+*.log
+.pytest_cache/
+
+# Generated previews, scratch work, and exported user configurations
+output/
+work/
+exports/

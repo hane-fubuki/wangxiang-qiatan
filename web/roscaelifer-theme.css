@@ -1,0 +1,145 @@
+/* Velina's silver tea salon: porcelain, navy, silver fan pleats and restrained gold. */
+body.roscaelifer-theme{--accent:#45638d;--muted:#6a7b92;--border:#d4dce6;--surface:#fafbfd;color:#26364f;background:#edf1f6}
+.room-group-hint{display:block;font-size:10px;line-height:1.4;opacity:.72;margin-top:3px;letter-spacing:1px}
+.roscaelifer-room{color:#26364f;background:#edf1f6}
+.roscaelifer-room .sidebar{background:#1d2b46;color:#dce4ee;border-color:#40536e;padding-top:27px}
+.roscaelifer-room .brand{color:#f4f6fa;font:600 20px 'SimSun','Songti SC',serif;gap:12px;letter-spacing:1px;padding-bottom:28px}
+.roscaelifer-room .brand small{font:9px 'Microsoft Yahei',sans-serif;letter-spacing:1.2px;color:#b8c8df;margin-top:10px}
+.roscaelifer-room .brand-mark,.roscaelifer-room .brand-mark img{width:43px;height:43px;transform:none;background:none;border:0}
+.roscaelifer-room .room-category-label,.roscaelifer-room .sidebar-section{color:#a9b9d0;font-size:10px;letter-spacing:2px}
+.roscaelifer-room .room-button{color:#c5d1e3;border-radius:5px;padding:11px;margin:3px 0;min-height:43px}
+.roscaelifer-room .room-button:hover{background:#293d5d;color:#fff}
+.roscaelifer-room .room-button.active{background:#415c83;color:#fff;box-shadow:inset 3px 0 #cfbb8b}
+.roscaelifer-room .room-button.active svg{color:#e4d6b1}
+.roscaelifer-room .new-chat{background:#e2e8f1;color:#243b5d;border:1px solid #aabbce;border-radius:5px;margin-top:17px;font-size:12px}
+.roscaelifer-room .new-chat:hover{background:#f5f7fb}
+.roscaelifer-room .new-chat kbd{color:#677c98;background:#ffffff60;font-size:9px}
+.roscaelifer-room .search{border:1px solid #4a5e7b;border-radius:5px;background:#22334f;color:#bbcae0}
+.roscaelifer-room .search input{color:#f4f7fb}
+.roscaelifer-room .search input::placeholder,.roscaelifer-room .search-slash{color:#a8bbd3}
+.roscaelifer-room .search-slash{border-color:#607593}
+.roscaelifer-room .chat-item{color:#c9d4e6;border-radius:4px}
+.roscaelifer-room .chat-item:hover,.roscaelifer-room .chat-item.active{background:#304565;color:#fff}
+.roscaelifer-room .list-empty,.roscaelifer-room .chat-item small{color:#a4b5ce}
+.roscaelifer-room .sidebar-bottom,.roscaelifer-room .settings-open{border-color:#425672;color:#d9e3ef}
+.roscaelifer-room .settings-open small,.roscaelifer-room .settings-open [data-icon]{color:#a4b7d0}
+.roscaelifer-room .local-badge{background:#273a56;border-color:#536983;color:#e2e9f2}
+.roscaelifer-room .local-badge small{color:#adbed5}
+.roscaelifer-room .workspace{background:#edf1f6}
+.roscaelifer-room .topbar{height:58px;background:#fafbfd;border-color:#d3dce8;padding:0 28px}
+.roscaelifer-room .breadcrumb,.roscaelifer-room .private-label,.roscaelifer-room .topbar-actions{color:#6d7f98}
+.roscaelifer-room .breadcrumb strong{color:#364e70}
+.roscaelifer-room .chat-heading{position:relative;isolation:isolate;overflow:hidden;flex-shrink:0;margin:23px 28px 0;padding:28px 30px 25px;border:1px solid #8196b3;border-radius:8px;background:#293e60;color:#f6f8fc;box-shadow:inset 0 0 0 5px #2c4162,inset 0 0 0 6px #9bacc43b}
+.roscaelifer-room .chat-heading:before{content:'';position:absolute;inset:0;background:linear-gradient(110deg,transparent 55%,#7189ad20);z-index:-1}
+.roscaelifer-room .chat-heading:after{content:'';position:absolute;width:185px;height:185px;right:-12px;top:-15px;opacity:.35;z-index:-1;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='none' stroke='%23d7e0ec' stroke-width='.7'%3E%3Cpath d='M5 35Q50-15 95 35L50 88ZM50 88V12M50 88 26 18M50 88 74 18M50 88 5 35M50 88 95 35M50 88 15 25M50 88 85 25M50 88 38 14M50 88 62 14'/%3E%3Ccircle cx='50' cy='88' r='3' fill='%23cab27b'/%3E%3C/svg%3E") center/contain no-repeat;transform:rotate(-10deg)}
+.roscaelifer-room .chat-heading>div{max-width:calc(100% - 75px)}
+.roscaelifer-room .chat-heading .eyebrow{display:flex;gap:9px;flex-wrap:wrap;align-items:center;color:#d6c395;font-size:9px;letter-spacing:2px}
+.roscaelifer-room .room-kind{border:1px solid #8598b3;color:#dae3ef;background:transparent;border-radius:3px;margin:0;font-size:9px}
+.roscaelifer-room .chat-heading h1{font:600 clamp(26px,2.5vw,37px)/1.3 'SimSun','Songti SC',serif;color:#f8f9fc;letter-spacing:4px;margin:13px 0 10px}
+.roscaelifer-room .chat-heading p{color:#c4d1e3;font-size:12px;line-height:1.8}
+.roscaelifer-room .messages{max-width:1300px;padding:0 28px 24px}
+.roscaelifer-room .empty-state{max-width:none;padding:25px 0 4px}
+.roscaelifer-room .character-stage[data-character-count="6"]{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));height:auto;gap:10px;padding:0;margin:0;background:none;align-items:stretch}
+.roscaelifer-room .character-stage:after{display:none}
+.roscaelifer-room .character-stage .stage-character{width:auto;height:auto;min-width:0;margin:0;padding:8px 0 0;border:1px solid #b7c6d9;border-radius:30px 30px 5px 5px;background:#f9fbff;overflow:hidden;justify-content:space-between;box-shadow:0 3px 0 #d8e0eb;transition:transform .16s,border-color .16s}
+.roscaelifer-room .character-stage .stage-character>.character-art{display:block;width:100%;height:auto;aspect-ratio:1;flex:none;min-height:0;max-height:156px;padding:7px;background:none;filter:none}
+.roscaelifer-room .character-art-avatar img{image-rendering:pixelated}
+.roscaelifer-room .character-stage .stage-character>.character-art img{object-fit:contain;object-position:center;width:100%;height:100%;filter:none}
+.roscaelifer-room .stage-character:hover{transform:translateY(-4px);border-color:#647fa6}
+.roscaelifer-room .stage-character.out-of-party{opacity:.5}
+.roscaelifer-room .stage-character[aria-pressed=true]{border-color:#8e784a;box-shadow:0 0 0 2px #d8c9a455}
+.roscaelifer-room .stage-avatar{display:none}
+.roscaelifer-room .stage-name{width:100%;min-width:0;max-width:none;min-height:55px;margin:0;padding:10px 3px;border:0;border-top:1px solid #d2dce9;border-radius:0;background:#e8eef7;justify-content:center;text-align:center}
+.roscaelifer-room .stage-name strong{font:600 14px 'SimSun','Songti SC',serif;color:#314b70;letter-spacing:1px}
+.roscaelifer-room .stage-name small{color:#657c9a;font-size:10px;margin-top:5px}
+.roscaelifer-room .welcome-copy{justify-content:flex-start;margin-top:25px}
+.roscaelifer-room .welcome-copy h2{font:600 22px 'SimSun','Songti SC',serif;color:#385477;text-align:left;letter-spacing:2px;margin:8px 0}
+.roscaelifer-room .empty-state>p{color:#657890;text-align:left;line-height:1.85;font-size:12px;margin:0 0 22px}
+.roscaelifer-room .gpt-welcome-note{color:#7a8aa0;font-size:10px}
+.roscaelifer-room .prompt-grid{gap:10px}
+.roscaelifer-room .prompt-card{padding:18px 13px;border:1px solid #c9d4e3;border-radius:5px;background:#fafcff;gap:10px;box-shadow:none}
+.roscaelifer-room .prompt-card:hover{background:#e7eef8;border-color:#829abd;transform:translateY(-2px)}
+.roscaelifer-room .prompt-icon{width:32px;height:32px;color:#52729d;background:#e7eef7;border-radius:50%;flex-shrink:0}
+.roscaelifer-room .prompt-card strong{color:#344f73;font-size:12px}
+.roscaelifer-room .prompt-card small{color:#6c809a;font-size:11px;line-height:1.7}
+.roscaelifer-room .prompt-arrow{color:#8c774e}
+.roscaelifer-room .starter-status,.roscaelifer-room .empty-foot{color:#7486a0;font-size:10px}
+.roscaelifer-room .composer-area{background:#edf1f6;padding:12px 28px 17px}
+.roscaelifer-room .composer{border:1px solid #a8bbd3;background:#fbfcff;border-radius:8px;box-shadow:0 6px 16px #263e6007}
+.roscaelifer-room .composer:focus-within{border-color:#6c89b1;box-shadow:0 0 0 3px #8fa9cf22}
+.roscaelifer-room .composer textarea{color:#2b4262}
+.roscaelifer-room .composer textarea::placeholder{color:#8498b2}
+.roscaelifer-room .composer-hints,.roscaelifer-room .mention-button,.roscaelifer-room .composer-footer,.roscaelifer-room .composer-footer button{color:#657d9e}
+.roscaelifer-room .mention-button.is-private,.roscaelifer-room #scene-button{background:#e4ecf7;color:#45668f}
+.roscaelifer-room .composer-divider{background:#c8d4e5}
+.roscaelifer-room .send-button,.roscaelifer-room .primary{background:#45638d;color:#f7f9fd}
+.roscaelifer-room .send-button{border-radius:6px;border:1px solid #becbdd}
+.roscaelifer-room .send-button:hover,.roscaelifer-room .primary:hover{background:#304f7b}
+.roscaelifer-room .icon-button:hover{background:#dde7f4;color:#3c608e}
+.roscaelifer-room .message{border-color:#d2ddea}
+.roscaelifer-room .message-header strong{color:#3b587d}
+.roscaelifer-room .message-content{color:#2e4363}
+.roscaelifer-room .message.user .message-content{background:#e0e9f6;border-color:#c8d6e9}
+.roscaelifer-room .message-model,.roscaelifer-room .message-header time{color:#7588a1}
+.roscaelifer-room .reply-tag,.roscaelifer-room .system-message,.roscaelifer-room .listening-message{background:#e4ecf6;color:#536e92}
+.roscaelifer-room .avatar{background:#e2eaf5;border:1px solid #c1cee1;border-radius:8px}
+.roscaelifer-room .run-banner{background:#e0eafa;color:#3c5c89;border-color:#b1c4dd}
+.roscaelifer-room .right-panel{background:#f8fafd;border-color:#d0dbe8;padding-top:24px}
+.roscaelifer-room .panel-heading h2,.roscaelifer-room .panel-section-heading h2{color:#3a5477;font-size:14px}
+.roscaelifer-room .panel-subtitle,.roscaelifer-room .panel-footnote{color:#70849f;font-size:11px}
+.roscaelifer-room .count-pill{background:#e4ebf5;color:#4a658a;border:1px solid #c0cee1}
+.roscaelifer-room .character-preview{border:1px solid #bacbdf;border-radius:70px 70px 6px 6px;background:radial-gradient(ellipse at 50% 45%,#cfdbed,#eaf0f8 70%);height:315px;overflow:hidden;padding-top:9px}
+.roscaelifer-room .character-preview>.character-art{height:225px;padding:0;filter:none;background:none}
+.roscaelifer-room .character-preview>.character-art img{object-fit:contain;object-position:center}
+.roscaelifer-room .portrait-caption{position:static;background:#f7faffef;border-color:#cfdaea;border-radius:0;margin:0;padding:9px 10px}
+.roscaelifer-room .portrait-caption:before{display:none}
+.roscaelifer-room .portrait-kicker{color:#7d6b47;font-size:9px}
+.roscaelifer-room .portrait-caption strong{color:#3b577d;font:600 17px 'SimSun',serif}
+.roscaelifer-room .portrait-caption p{color:#7489a5;font-size:10px}
+.roscaelifer-room .participant-chip{color:#4a668a;background:#e6edf7}
+.roscaelifer-room #web-search-toggle{color:#45668f;background:#e4ecf7;border-color:#bdcde2}
+.roscaelifer-room #web-search-toggle[aria-pressed="false"]{background:transparent;color:#6a7b92}
+.roscaelifer-room .provider-card{background:#fbfcff;border:1px solid #cbd8e8;border-radius:6px}
+.roscaelifer-room .provider-card.inactive{background:#e8edf4}
+.roscaelifer-room .provider-name,.roscaelifer-room .provider-name strong{color:#3e5a82}
+.roscaelifer-room .provider-name small,.roscaelifer-room .provider-state{color:#7589a4}
+.roscaelifer-room .provider-state.active{color:#4b719d}
+.roscaelifer-room .provider-toggle{background:#c6d3e5}
+.roscaelifer-room .provider-toggle[aria-pressed=true]{background:#6787b0}
+.roscaelifer-room .provider-character-button[aria-pressed=true] .avatar{box-shadow:0 0 0 2px #bea97a}
+.roscaelifer-room .provider-model-select{color:#3c5b83;background:#f3f7fc;border-color:#c1d1e5}
+.roscaelifer-room .connection-button{color:#4a709c}
+.roscaelifer-room .connection-button:hover{background:#e4edf9;color:#335987}
+.roscaelifer-room .panel-rule{background:#d0dceb}
+.roscaelifer-room .panel-section-heading svg{color:#6f8caf}
+.roscaelifer-room .mode-button{color:#5e7697;background:transparent}
+.roscaelifer-room .mode-button strong{color:#46648d}
+.roscaelifer-room .mode-button small{color:#7489a5}
+.roscaelifer-room .mode-button>span:first-child{color:#7894b9}
+.roscaelifer-room .mode-button.selected{background:#e2ebf8;border-color:#b5c8e2}
+.roscaelifer-room .mode-button.selected .radio-mark{border-color:#6485b2}
+.roscaelifer-room .mode-button.selected .radio-mark:after{background:#6485b2}
+.roscaelifer-room .rounds-control{color:#637e9f}
+.roscaelifer-room .rounds-control select{background:#f7faff;color:#466690;border-color:#becfe4}
+.roscaelifer-room .discussion-note{background:#e9eff8;border-color:#ccd9e9;color:#607a9c}
+.roscaelifer-room .discussion-note p,.roscaelifer-room .discussion-note span,.roscaelifer-room .research-settings-note{color:#6c83a1}
+.roscaelifer-room .connection-status{color:#738ba8;border-color:#ccd9e9}
+.roscaelifer-theme dialog{background:#f6f9fe;color:#293f5f;border:1px solid #98aecb;border-radius:10px;box-shadow:0 20px 80px #172c4b55}
+.roscaelifer-theme dialog::backdrop{background:#152843a0;backdrop-filter:blur(3px)}
+.roscaelifer-theme .dialog-header h2{color:#334f75;font-family:'SimSun',serif}
+.roscaelifer-theme .dialog-header .eyebrow{color:#88764f}
+.roscaelifer-theme .dialog-description,.roscaelifer-theme .connection-detail p,.roscaelifer-theme .skill-version,.roscaelifer-theme .skill-command-help{color:#677f9e}
+.roscaelifer-theme .primary{background:#45638d;color:white}
+.roscaelifer-theme .secondary{background:#e4edf9;border-color:#b5c8e3;color:#3d5f8b}
+.roscaelifer-theme .danger-button{background:#914957;color:#fff}
+.roscaelifer-theme dialog input,.roscaelifer-theme dialog textarea,.roscaelifer-theme dialog select{background:#fbfcff;border:1px solid #b4c6df;color:#314f76;accent-color:#557dad}
+.roscaelifer-theme .skill-base,.roscaelifer-theme .skill-history,.roscaelifer-theme .setup-note{background:#e9f0fa;border-color:#c5d5ea;color:#4e6e98}
+.roscaelifer-theme .scene-member-picker label{background:#f4f8fe;border-color:#b9cce5;color:#47658d}
+.roscaelifer-theme .skill-tabs button{color:#5e7ba1}
+.roscaelifer-theme .skill-tabs button.active{background:#dce8f8;border-color:#a8c0e0;color:#314f78}
+.roscaelifer-theme .toast{background:#243c60;color:#edf4ff;border:1px solid #7f99bc}
+.roscaelifer-room :focus-visible,.roscaelifer-theme dialog :focus-visible{outline:3px solid #a88e55;outline-offset:3px}
+@media(max-width:1250px){.roscaelifer-room .character-stage[data-character-count="6"]{grid-template-columns:repeat(3,minmax(0,1fr));max-width:570px;margin:auto;gap:12px}.roscaelifer-room .character-stage .stage-character>.character-art{max-height:132px}.roscaelifer-room .prompt-grid{grid-template-columns:1fr}.roscaelifer-room .prompt-card{padding:12px 15px}.roscaelifer-room .brand{font-size:17px}.roscaelifer-room .brand small{font-size:8px;letter-spacing:.5px}}
+@media(max-width:720px){.roscaelifer-room .topbar{padding:0 14px;height:56px}.roscaelifer-room .sidebar{padding:25px 20px 0}.roscaelifer-room .brand{font-size:21px}.roscaelifer-room .brand small{font-size:10px}.roscaelifer-room .chat-heading{margin:15px 14px 0;padding:23px 20px}.roscaelifer-room .chat-heading h1{font-size:26px;letter-spacing:2px}.roscaelifer-room .chat-heading>div{max-width:100%}.roscaelifer-room .chat-heading:after{right:-60px;opacity:.18}.roscaelifer-room .chat-heading p{font-size:11px}.roscaelifer-room .room-kind{display:none}.roscaelifer-room .chat-heading .eyebrow{font-size:8px;letter-spacing:1px}.roscaelifer-room .messages{padding:0 14px 20px}.roscaelifer-room .empty-state{padding-top:21px}.roscaelifer-room .character-stage[data-character-count="6"]{gap:10px}.roscaelifer-room .character-stage .stage-character>.character-art{max-height:145px;padding:6px}.roscaelifer-room .stage-name{min-height:48px;padding:8px 1px}.roscaelifer-room .stage-name strong{font-size:13px;letter-spacing:0}.roscaelifer-room .welcome-copy{margin-top:20px}.roscaelifer-room .welcome-copy h2{font-size:19px;letter-spacing:1px}.roscaelifer-room .empty-state>p{font-size:11px;margin-bottom:18px}.roscaelifer-room .composer-area{padding:9px 14px 13px}.roscaelifer-room .composer-hints{gap:5px;flex-wrap:wrap}.roscaelifer-room .composer-footer{font-size:9px}}
+@media(max-width:420px){.roscaelifer-room .participant-chip{font-size:10px;padding:2px 3px;gap:3px}.roscaelifer-room .participant-chip .character-art{width:18px;height:18px}.roscaelifer-room .composer-participants{gap:4px}}
+@media(prefers-reduced-motion:reduce){.roscaelifer-room *,.roscaelifer-theme dialog *{animation:none!important;transition:none!important}}

@@ -1,0 +1,366 @@
+/* Rose-pink leads the theme; milk-white surfaces and small mint accents keep it light. */
+:root {
+  --accent: #bc3f73;
+  --muted: #806c76;
+  --border: #efdce5;
+  --surface: #fffafd;
+  --tea-mint: #2c8b7d;
+  --tea-rose: #bb627b;
+  --tea-ink: #503b46;
+  --tea-paper: #fff7fa;
+}
+
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) { color: var(--tea-ink); background: var(--tea-paper); }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .sidebar { background: #fff0f6; border-color: #ecdae1; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .right-panel { background: #fff5f9; border-color: #ebd8df; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .workspace { background: #fffafd; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .brand { color: #854760; letter-spacing: 1px; gap: 10px; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .brand small { color: #926c7a; font-size: 10px; letter-spacing: 2.3px; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .brand-mark {
+  width: 42px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: transparent;
+  color: #7d3751;
+  border: 0;
+  box-shadow: none;
+  transform: rotate(-3deg);
+}
+.brand-mark svg, .brand-mark img { width: 35px; height: 35px; display: block; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .primary,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .send-button { background: #c4487c; color: #ffffff; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .primary:hover,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .send-button:hover { background: #a93264; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .new-chat { border-radius: 9px; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .new-chat kbd { color: #eed8e0; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .room-category-label,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .sidebar-section { color: #918187; letter-spacing: .6px; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .room-button { color: #725e65; border: 1px solid transparent; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .room-button svg { color: #9d7d89; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .room-button:hover { background: #f3e9ed; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .room-button.active {
+  color: #9b3c65;
+  background: #fbdce9;
+  border-color: #edbcd0;
+  box-shadow: inset 3px 0 #d16b92;
+}
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .room-button.active svg { color: #bf6c87; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .search,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .search input,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .search input::placeholder,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .chat-item { color: #807176; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .search-slash { border-color: #e9d5dc; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .chat-item:hover { background: #f3e8ec; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .chat-item.active { background: #f9e1eb; color: #954e6d; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .local-badge { background: #fef9fb; border-color: #ebd7de; color: #846973; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .local-badge small,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .local-badge svg { color: #96878c; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .settings-open { color: #7b616b; border-color: #ead6dd; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .settings-open small { color: #918388; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .green-dot,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .status-dot,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .pulse-dot { background: #65a88e; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .topbar { background: #fff9fb; border-color: #eddbe2; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .breadcrumb,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .breadcrumb #room-breadcrumb,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .private-label { color: #8a767d; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .breadcrumb strong { color: #6a4d58; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .icon-button { color: #958088; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .icon-button:hover { background: #f4e9ed; color: #804359; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .chat-heading h1 { color: #5e3c48; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .chat-heading p { color: #87727a; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .eyebrow { color: #9b7b87; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .room-kind { color: #947380; border-color: #e6d7da; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .chat-scroll { scrollbar-color: #e6cfd7 transparent; }
+
+/* The reference stays vivid in the header; chat text sits on quiet, solid paper. */
+.app-shell[data-room-id="zzz-trio"] .workspace { background: #fff7fa; }
+.app-shell[data-room-id="zzz-trio"] .chat-heading {
+  min-height: 288px;
+  height: 288px;
+  padding: 0 34px 19px;
+  align-items: flex-end;
+  position: relative;
+  isolation: isolate;
+  background-image:
+    linear-gradient(180deg, #fff7fa00 35%, #fff7fa0a 48%, #fff7fad9 76%, #fff7fa 99%),
+    url('/assets/tea-party-reference.jpg');
+  background-position: center, center 43%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.app-shell[data-room-id="zzz-trio"] .chat-heading:after {
+  content: '';
+  position: absolute;
+  right: 29px;
+  bottom: 25px;
+  width: 34px;
+  height: 34px;
+  background: #e8b2c1;
+  clip-path: polygon(50% 0, 61% 36%, 100% 50%, 61% 62%, 50% 100%, 38% 62%, 0 50%, 38% 36%);
+  opacity: .65;
+  pointer-events: none;
+}
+.app-shell[data-room-id="zzz-trio"] .chat-heading > div { position: relative; z-index: 1; }
+.app-shell[data-room-id="zzz-trio"] .chat-heading .eyebrow {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border: 1px solid #fef7f9;
+  border-radius: 5px;
+  background: #fef3f7e8;
+  color: #7e475b;
+  font-size: 9px;
+  letter-spacing: 1.8px;
+}
+.app-shell[data-room-id="zzz-trio"] .chat-heading .room-kind { font-size: 10px; color: #966a7e; }
+.app-shell[data-room-id="zzz-trio"] .chat-heading h1 {
+  color: #5e3443;
+  font-size: 27px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin: 9px 0 7px;
+  text-shadow: 0 1px #fef7f9;
+}
+.app-shell[data-room-id="zzz-trio"] .chat-heading p { font-size: 12px; color: #7c6b71; max-width: 590px; }
+.app-shell[data-room-id="zzz-trio"] .messages { padding-left: 34px; padding-right: 34px; }
+.app-shell[data-room-id="zzz-trio"] .empty-state { padding-top: 8px; }
+.app-shell[data-room-id="zzz-trio"] .character-stage { height: 240px; gap: 12px; background: transparent; }
+.app-shell[data-room-id="zzz-trio"] .stage-character {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  border: 1px solid #ead6dd;
+  border-radius: 13px;
+  background: #fffafc;
+}
+.app-shell[data-room-id="zzz-trio"] .stage-character > .character-art {
+  height: 191px;
+  min-height: 0;
+  flex: 1;
+  background: #fff;
+}
+.app-shell[data-room-id="zzz-trio"] .stage-name {
+  width: 100%;
+  max-width: none;
+  min-height: 45px;
+  border: 0;
+  border-top: 1px solid #ecdbe1;
+  border-radius: 0;
+  background: #fff0f6;
+  margin: 0;
+  padding: 6px 8px;
+}
+.app-shell[data-room-id="zzz-trio"] .stage-character:nth-of-type(2) .stage-name { background: #fbf0f2; }
+.app-shell[data-room-id="zzz-trio"] .stage-name strong { color: #765762; }
+.app-shell[data-room-id="zzz-trio"] .stage-name small,
+.app-shell[data-room-id="zzz-trio"] .stage-character.in-party .stage-name small { color: #806b73; font-size: 11px; }
+.app-shell[data-room-id="zzz-trio"] .stage-character[aria-pressed="true"] { border-color: #bb91a0; }
+.app-shell[data-room-id="zzz-trio"] .stage-character[aria-pressed="true"] .stage-name { background: #f9deea; }
+.app-shell[data-room-id="zzz-trio"] .stage-character.out-of-party .stage-name { background: #f5ebef; }
+.app-shell[data-room-id="zzz-trio"] .welcome-copy { margin-top: 20px; }
+.app-shell[data-room-id="zzz-trio"] .welcome-copy h2 { color: #795864; font-size: 18px; }
+.app-shell[data-room-id="zzz-trio"] .welcome-rule { background: #dfc1c9; }
+.app-shell[data-room-id="zzz-trio"] .empty-state > p,
+.app-shell[data-room-id="zzz-trio"] .empty-foot { color: #846f77; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .prompt-card { background: #fff9fb; border-color: #ead7de; border-radius: 11px; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .prompt-card:hover { border-color: #d0afbb; background: #f8eef2; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .prompt-card strong { color: #744d5b; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .prompt-card small { color: #816e75; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .prompt-card .prompt-icon { color: #8d4c64; background: #f2e6ea; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .prompt-card:nth-child(2) .prompt-icon { color: #b16c83; background: #fae9ee; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .prompt-card:nth-child(3) .prompt-icon { color: #438a7c; background: #e6f5ef; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .prompt-arrow { color: #bca4ad; }
+.app-shell[data-room-id="zzz-trio"].has-messages .chat-heading { height: 208px; min-height: 208px; background-position: center, center 46%; }
+.app-shell[data-room-id="zzz-trio"].has-messages .chat-heading h1 { font-size: 23px; margin: 7px 0 5px; }
+.app-shell[data-room-id="zzz-trio"] .message-body {
+  border: 1px solid #ecdbe1;
+  border-radius: 4px 15px 15px;
+  padding: 12px 16px 14px;
+  background: #fffafcf7;
+}
+.app-shell[data-room-id="zzz-trio"] .message.user .message-body { background: #fff0f6; border-color: #efd2df; }
+.app-shell[data-room-id="zzz-trio"] .message.user .message-content { border: 0; padding: 0; background: transparent; color: #604851; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .message-content { color: #513f48; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .message-header strong { color: #774658; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .message-header time,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .message-model { color: #89767d; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .reply-tag { color: #a16e81; background: #f8edf0; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .message-content pre { background: #f6eef1; border-color: #ead6dd; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .message-content code { background: #f2e6ea; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .message-content blockquote { border-color: #d7bac5; color: #8e757e; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .composer-area { background: #fffafd; }
+.app-shell[data-room-id="zzz-trio"] .composer-area { background: linear-gradient(0deg, #fff7fa 90%, #fff7fa00); }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .composer { border-color: #e7bacd; background: #fffafd; border-radius: 14px; box-shadow: 0 4px 16px #67495407; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .composer:focus-within { border-color: #ce769b; box-shadow: 0 0 0 3px #fbe1ed; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .composer textarea { color: #644651; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .composer textarea::placeholder { color: #8b767e; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .participant-chip { color: #82646f; background: #f4e9ed; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .participant-chip:nth-child(2) { color: #a17186; background: #f9edf0; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .composer-hints,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .mention-button,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .composer-footer,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .composer-footer button,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .composer-tool { color: #866e77; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) #web-search-toggle,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) #scene-button { border-color: #e9d4dc; background: #f6ebef; color: #876471; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .run-banner,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .run-banner button { color: #927580; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .panel-heading h2,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .panel-section-heading h2 { color: #745460; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .panel-subtitle { color: #846d75; line-height: 1.8; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .count-pill { background: #f1e3e8; color: #906a78; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .character-preview { background: white; border-color: #ecd9e0; border-radius: 13px; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .portrait-caption { background: #fff4f9; border-color: #ecd9e0; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .portrait-kicker { color: #ad8793; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .portrait-caption strong { color: #86626f; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .portrait-caption strong span,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .portrait-caption p { color: #8a6e78; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .provider-card { border-color: #ead6dd; background: #fef8fa; border-radius: 11px; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .provider-card.inactive { background: #faf2f6; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .provider-name,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .provider-name strong { color: #7c5d68; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .provider-name small,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .provider-state { color: #876b75; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .provider-toggle { background: #e9d4dc; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .provider-toggle[aria-pressed="true"] { background: #d3729b; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .provider-character-button[aria-pressed="true"] .avatar { box-shadow: 0 0 0 2px #cba8b5; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .character-model-select,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .rounds-control select { color: #826b73; border-color: #e8d3db; background: #fef9fb; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .connection-button { color: #997b86; border-color: #e8d1da; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .connection-button:hover { background: #f5e9ed; color: #7a5563; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .panel-rule { background: #eddde3; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .mode-button strong { color: #8a6c77; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .mode-button small,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .mode-button > span:first-child { color: #8f6e7a; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .mode-button.selected { background: #fce6ef; border-color: #edc1d3; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .mode-button.selected strong { color: #825e6b; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .mode-button.selected .radio-mark { border-color: #cc7196; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .mode-button.selected .radio-mark:after { background: #cc7196; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .rounds-control { color: #947681; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .discussion-note { background: #f5e9ed; color: #8b6975; }
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .discussion-note p span,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .research-settings-note,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .connection-status,
+.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .panel-footnote { color: #896a75; border-color: #ebd7de; }
+
+/* Dialogs are siblings of the app shell, so inherit the active room palette here. */
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog {
+  color: #6b4e59;
+  background: #fef9fb;
+  border-color: #e9d4dc;
+  box-shadow: 0 18px 60px #4e303b26;
+}
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog::backdrop { background: #4e303b40; backdrop-filter: none; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .dialog-header h2 { color: #744959; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .eyebrow { color: #b77b8d; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .dialog-description,
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .connection-detail p,
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .skill-command-help,
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .release-download-note > span { color: #8c737c; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .primary { background: #c4487c; color: #ffffff; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .primary:hover { background: #a93264; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .secondary { color: #836570; background: #f5e9ed; border-color: #e4cbd4; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .icon-button { color: #977c86; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .icon-button:hover { color: #7b4d5e; background: #f3e5ea; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .connection-detail { border-color: #e9d3db; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .setup-note,
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .local-connection-form { color: #8a6b76; background: #f6ecf0; border-color: #e8d3db; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .setup-note strong { color: #7d5b67; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .setup-note code { background: #eedce3; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .release-download-note a { color: #a86d82; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog input:not([type="checkbox"]),
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog textarea,
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog select { color: #6d535d; border-color: #e5ccd5; background: #fff9fb; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .skill-base,
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) dialog .skill-history { border-color: #e8d3db; background: #faf3f6; }
+body:has(.app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room)) .toast { background: #784457; color: #ffffff; }
+
+@media (max-width: 1180px) {
+  .app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .brand { font-size: 19px; gap: 8px; }
+  .app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .brand-mark { width: 35px; height: 40px; }
+  .app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .brand-mark svg,
+  .app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .brand-mark img { width: 30px; height: 30px; }
+  .app-shell[data-room-id="zzz-trio"] .chat-heading { padding-left: 25px; padding-right: 25px; }
+  .app-shell[data-room-id="zzz-trio"] .messages { padding-left: 25px; padding-right: 25px; }
+  .app-shell[data-room-id="zzz-trio"] .character-stage { gap: 8px; height: 220px; }
+  .app-shell[data-room-id="zzz-trio"] .stage-character { height: 220px; }
+}
+
+@media (max-width: 720px) {
+  .app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .brand { font-size: 22px; gap: 11px; }
+  .app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .brand-mark { width: 41px; height: 44px; }
+  .app-shell[data-room-id="zzz-trio"] .chat-heading {
+    min-height: 235px;
+    height: 235px;
+    padding: 0 21px 15px;
+    background-position: center, center 43%;
+    background-image:
+      linear-gradient(180deg, #fff7fa00 35%, #fff7fa12 45%, #fff7fae8 75%, #fff7fa 98%),
+      url('/assets/tea-party-reference.jpg');
+  }
+  .app-shell[data-room-id="zzz-trio"] .chat-heading:after { width: 25px; height: 25px; right: 22px; bottom: 31px; }
+  .app-shell[data-room-id="zzz-trio"] .chat-heading h1 { font-size: 23px; margin: 8px 0 6px; }
+  .app-shell[data-room-id="zzz-trio"] .chat-heading p { font-size: 11px; max-width: 310px; line-height: 1.8; }
+  .app-shell[data-room-id="zzz-trio"] .chat-heading .eyebrow { font-size: 8px; letter-spacing: 1.1px; padding: 3px 6px; }
+  .app-shell[data-room-id="zzz-trio"] .chat-heading .room-kind { font-size: 10px; }
+  .app-shell[data-room-id="zzz-trio"].has-messages .chat-heading { height: 172px; min-height: 172px; background-position: center, center 44%; }
+  .app-shell[data-room-id="zzz-trio"].has-messages .chat-heading h1 { font-size: 21px; margin: 5px 0; }
+  .app-shell[data-room-id="zzz-trio"].has-messages .chat-heading p { display: none; }
+  .app-shell[data-room-id="zzz-trio"] .messages { padding-left: 16px; padding-right: 16px; }
+  .app-shell[data-room-id="zzz-trio"] .empty-state { padding-top: 2px; }
+  .app-shell[data-room-id="zzz-trio"] .character-stage { height: 191px; margin: 0; gap: 7px; }
+  .app-shell[data-room-id="zzz-trio"] .stage-character { height: 191px; border-radius: 10px; }
+  .app-shell[data-room-id="zzz-trio"] .stage-character > .character-art { height: 146px; }
+  .app-shell[data-room-id="zzz-trio"] .stage-name { padding: 6px 3px; min-height: 43px; }
+  .app-shell[data-room-id="zzz-trio"] .stage-name strong { font-size: 12px; }
+  .app-shell[data-room-id="zzz-trio"] .stage-name small { font-size: 10px; }
+  .app-shell[data-room-id="zzz-trio"] .welcome-copy { margin-top: 16px; }
+  .app-shell[data-room-id="zzz-trio"] .welcome-copy h2 { font-size: 16px; }
+  .app-shell[data-room-id="zzz-trio"] .message { gap: 8px; }
+  .app-shell[data-room-id="zzz-trio"] .message-body { padding: 10px 11px 12px; }
+  .app-shell[data-room-id="zzz-trio"] .message-header { flex-wrap: wrap; min-height: 26px; height: auto; row-gap: 3px; }
+  .app-shell[data-room-id="zzz-trio"] .composer-area { padding: 8px 13px 11px; }
+  .app-shell:not(.roscaelifer-room):not(.outer-ring-room):not(.wangsheng-room):not(.studio-room):not(.yunkui-room):not(.obol-room):not(.mockingbird-room) .composer-hints { gap: 5px; }
+}
+
+@media (max-height: 700px) {
+  .app-shell[data-room-id="zzz-trio"] .chat-heading { min-height: 212px; height: 212px; }
+  .app-shell[data-room-id="zzz-trio"].has-messages .chat-heading { min-height: 140px; height: 140px; padding-bottom: 12px; }
+  .app-shell[data-room-id="zzz-trio"].has-messages .chat-heading p { display: none; }
+}
+
+/* Leave the welcome cards a useful scroll area on laptop-height windows. */
+@media (max-height: 800px) and (min-width: 721px) {
+  .app-shell[data-room-id="zzz-trio"]:not(.has-messages) .chat-heading {
+    min-height: 190px;
+    height: 190px;
+    padding-bottom: 13px;
+    background-position: center, center 46%;
+  }
+  .app-shell[data-room-id="zzz-trio"]:not(.has-messages) .chat-heading h1 { font-size: 23px; margin: 6px 0 5px; }
+  .app-shell[data-room-id="zzz-trio"]:not(.has-messages) .composer-area { padding-top: 7px; padding-bottom: 11px; }
+  .app-shell[data-room-id="zzz-trio"]:not(.has-messages) .composer { padding: 9px 13px 8px; }
+  .app-shell[data-room-id="zzz-trio"]:not(.has-messages) .composer textarea {
+    min-height: 45px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    line-height: 1.65;
+  }
+  .app-shell[data-room-id="zzz-trio"]:not(.has-messages) .composer-footer { margin-top: 8px; }
+  .app-shell[data-room-id="zzz-trio"]:not(.has-messages) .character-stage,
+  .app-shell[data-room-id="zzz-trio"]:not(.has-messages) .stage-character { height: 220px; }
+  .app-shell[data-room-id="zzz-trio"]:not(.has-messages) .welcome-copy { margin-top: 14px; }
+}
+
+@media (max-height: 500px) {
+  .app-shell[data-room-id="zzz-trio"] .chat-heading,
+  .app-shell[data-room-id="zzz-trio"]:not(.has-messages) .chat-heading { min-height: 98px; height: 98px; padding-bottom: 8px; }
+  .app-shell[data-room-id="zzz-trio"].has-messages .chat-heading { min-height: 88px; height: 88px; }
+  .app-shell[data-room-id="zzz-trio"] .chat-heading p,
+  .app-shell[data-room-id="zzz-trio"] .chat-heading .eyebrow { display: none; }
+}

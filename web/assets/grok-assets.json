@@ -1,0 +1,8 @@
+{
+  "reference": "User supplied 144E1FFF56133DAFDADC405ADF94B5DC.jpg",
+  "stand": "grok-original.jpg (unchanged copy)",
+  "avatar": "grok-avatar-reference.png",
+  "method": "built-in image_gen",
+  "transparent_background": true,
+  "prompt": "Use case: stylized-concept. Asset: a single transparent square chibi avatar for the Grok character in an anime group-chat app. The attached image is the character identity and style reference, not an edit target. Create a new cute super-deformed chibi bust/half-body of this exact blonde blue-eyed fantasy woman: long warm blonde twin ponytails with large black bows, small black and gold crown with the same circular emblem, pointed ears, bat-wing hair accessories, black gothic dress with gold trim, white ruffles, burgundy lining. Preserve the reference's identifiable hairstyle, clear blue eyes, palette and cheerful confident little fanged smile. Clean anime line art, simple restrained cel shading, no oily highlights, no heavy makeup. Centered front three-quarter bust, large head occupying most of the square, complete crown and hair silhouette with a small transparent margin. Both hands fully hidden inside the wide sleeve cuffs near the waist, no visible fingers. Include a small simplified version of the reference's black/gold X-shaped fantasy axe beside her without obscuring face; fit within frame. No background scene, no circle badge, no lettering, no watermark. Truly transparent background."
+}

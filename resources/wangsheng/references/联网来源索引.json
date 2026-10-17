@@ -1,0 +1,42 @@
+[
+  {
+    "name": "派蒙",
+    "url": "https://wiki.biligame.com/ys/派蒙",
+    "revision": 669302,
+    "checkedAt": "2026-10-16T09:49:24.424804+00:00",
+    "type": "community_character_transcript",
+    "scope": "角色性格/故事；项目二创关系另列",
+    "confidence": "社区直接文本，未逐帧核对官方",
+    "rawFile": "outputs/往生堂七人组/资料/派蒙.json"
+  },
+  {
+    "name": "香菱",
+    "url": "https://wiki.biligame.com/ys/香菱",
+    "revision": 669944,
+    "checkedAt": "2026-10-16T09:49:24.425804+00:00",
+    "type": "community_character_transcript",
+    "scope": "角色性格/故事；项目二创关系另列",
+    "confidence": "社区直接文本，未逐帧核对官方",
+    "rawFile": "outputs/往生堂七人组/资料/香菱.json"
+  },
+  {
+    "name": "魈",
+    "url": "https://wiki.biligame.com/ys/魈",
+    "revision": 672915,
+    "checkedAt": "2026-10-16T09:49:24.426797+00:00",
+    "type": "community_character_transcript",
+    "scope": "角色性格/故事；项目二创关系另列",
+    "confidence": "社区直接文本，未逐帧核对官方",
+    "rawFile": "outputs/往生堂七人组/资料/魈.json"
+  },
+  {
+    "name": "兹白",
+    "url": "https://wiki.biligame.com/ys/兹白",
+    "revision": 685361,
+    "checkedAt": "2026-10-16T09:49:24.427812+00:00",
+    "type": "community_character_transcript",
+    "scope": "角色性格/故事；项目二创关系另列",
+    "confidence": "社区直接文本，未逐帧核对官方",
+    "rawFile": "outputs/往生堂七人组/资料/兹白.json"
+  }
+]

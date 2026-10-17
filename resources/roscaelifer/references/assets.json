@@ -1,0 +1,316 @@
+{
+  "date": "2026-10-17",
+  "groupName": "罗斯凯利法",
+  "chatName": "天空之城",
+  "assets": [
+    {
+      "path": "assets/avatars/claret.png",
+      "kind": "generated-fan-art",
+      "source": null,
+      "bytes": 1721983,
+      "sha256": "4eb1b841944093b4885585dfa930c3341aec96e3a1682cef97c28f1957391cb3",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/avatars/lindverne.png",
+      "kind": "generated-fan-art",
+      "source": null,
+      "bytes": 1673803,
+      "sha256": "84ff6adb2462f8ab9e557038e5e25616a744b0ea6abafb21417ea5b2a1f81a6d",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "revision": "lindverne-zzz-style-v2"
+    },
+    {
+      "path": "assets/avatars/norma.png",
+      "kind": "generated-fan-art",
+      "source": null,
+      "bytes": 1194128,
+      "sha256": "9e4ffc0e8ffe444dd9315c013aaa3eeb6d2588744aeb26470e36091394f889fa",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/avatars/roxy.png",
+      "kind": "generated-fan-art",
+      "source": null,
+      "bytes": 1294882,
+      "sha256": "fce3555c7eea13cb479e2dbfd79f9a7ba5297d32510e94e0eb32cddc14428760",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/avatars/sigrid.png",
+      "kind": "generated-fan-art",
+      "source": null,
+      "bytes": 1488511,
+      "sha256": "7a95f909035182def0ec9ca8136ea06545cfe70e77b3fa34e90a1e840970e6f2",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/avatars/velina.png",
+      "kind": "generated-fan-art",
+      "source": null,
+      "bytes": 1671352,
+      "sha256": "04378559946c96c0c77dca0b0181e63ca32247609131520a4a693f09bed86402",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/claret-intro.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/1/18/1124uvidrxovkhc0iiwppzbgqivsua6.png",
+      "bytes": 2029172,
+      "sha256": "f611396103c0ff4287c3ba38e2886dd0abfcef9a9681e9a5221cc62061dc834e",
+      "width": 1052,
+      "height": 1362,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/claret-intro2.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/3/3e/056drczf38o6n9cjabfx4fioxu6j9qy.png",
+      "bytes": 3300885,
+      "sha256": "8a611e75670eeca3664d32fd73b3c6f0c81da1baea5ed20f2802f92e14294a07",
+      "width": 1052,
+      "height": 2104,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/claret-stand.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/a/a3/oxcqfsq6hurenx36hregm81cfq7sg29.png",
+      "bytes": 1056618,
+      "sha256": "0b3e5901ac345b98fd88418faa81fbfdc37f63b30f1917c853716573386e1a93",
+      "width": 1051,
+      "height": 1360,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/lindverne-model-full.png",
+      "kind": "local-model-render",
+      "source": "https://tstorage.info/cp031zi8or4z",
+      "bytes": 81803,
+      "sha256": "51de6eef5be19a8718afd2f542c791583a4a7f67ea431cf18e7644bc266d90bf",
+      "width": 1264,
+      "height": 818,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/lindverne-model-head.png",
+      "kind": "local-model-render",
+      "source": "https://tstorage.info/cp031zi8or4z",
+      "bytes": 91709,
+      "sha256": "dbfd60d8574bd819a57a11bd2b9372ee2b32b9a352d4a3130ef96c3e9dc17b93",
+      "width": 1264,
+      "height": 818,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/lindverne-model-legs.png",
+      "kind": "local-model-render",
+      "source": "https://tstorage.info/cp031zi8or4z",
+      "bytes": 94396,
+      "sha256": "bb076f2cc71d319a6f21daecc95f077820224b7d7fd5b19d35832bdae94361ee",
+      "width": 1264,
+      "height": 818,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/lindverne-model-torso.png",
+      "kind": "local-model-render",
+      "source": "https://tstorage.info/cp031zi8or4z",
+      "bytes": 130851,
+      "sha256": "bd01eb3b45a2f7c260dae0e6777ffa0603107d5a2f77be2b574aa1e1fab67cde",
+      "width": 1264,
+      "height": 818,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/lindverne-reference-3.png",
+      "kind": "downloaded-reference",
+      "source": "https://mudae.net/uploads/4887808/JmQif89~MyPnUfCcr.png",
+      "bytes": 159675,
+      "sha256": "5ed4ced176cd29f2cd596b0d0371ca9f719b96e7e560f1128b2b7f02e289c154",
+      "width": 225,
+      "height": 350,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/lindverne-reference-5.png",
+      "kind": "downloaded-reference",
+      "source": "https://mudae.net/uploads/4887808/rcPU-ac~xAz9mcQ4K.png",
+      "bytes": 169716,
+      "sha256": "618675fea3a214a2f114846767e1504d68672d46c755c1a914dc5aa90b03739b",
+      "width": 225,
+      "height": 350,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/lindverne-reference-6.png",
+      "kind": "downloaded-reference",
+      "source": "https://mudae.net/uploads/4887808/hGfXSXC~0jrjslxU9.png",
+      "bytes": 161460,
+      "sha256": "b64f8ec8fb86bd3a2d97bcf653f593414fa52c9082414210adb3f4c4e0850127",
+      "width": 225,
+      "height": 350,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/lindverne-reference-front.png",
+      "kind": "downloaded-reference",
+      "source": "https://mudae.net/uploads/4887808/13r6UFo~n120C9eRD.png",
+      "bytes": 169908,
+      "sha256": "ad249a176e5c6852b4402176e78746210170e4131cb3ddd20f3e769bf9212ea6",
+      "width": 225,
+      "height": 350,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/lindverne-reference.png",
+      "kind": "downloaded-reference",
+      "source": "https://mudae.net/uploads/4887808/NwhNEnt~4qMEi9CpG.png",
+      "bytes": 110764,
+      "sha256": "30a28a8f0fcb3d935d139421712dc722122b0ac44442cc994e192eb9ac0c667b",
+      "width": 225,
+      "height": 350,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/lindverne-stand.png",
+      "kind": "generated-fan-art",
+      "source": null,
+      "bytes": 2109081,
+      "sha256": "1d773b6b8c69b71b16e4daf2632107a9c8693bb3630a47817ebbeefc0559aab5",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "revision": "lindverne-first-sword-20261017"
+    },
+    {
+      "path": "assets/model-archives/lindverne-default.7z",
+      "kind": "downloaded-model-archive",
+      "source": "https://tstorage.info/cp031zi8or4z",
+      "bytes": 17721794,
+      "sha256": "e16104f27bb26f359c1eb3c16df241962f964c90e8e7ffceeb871ea9b6d38c6f"
+    },
+    {
+      "path": "assets/norma-intro.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/0/0d/bkykmue13bmq6vwha2wgrnhumubloo3.png",
+      "bytes": 2209594,
+      "sha256": "f608ac6a772894c5e20dd1619a283bd153b28f96d4ce4dd6928bbec875b136e7",
+      "width": 1052,
+      "height": 1362,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/norma-intro2.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/9/92/0qkucd11yx9fl5l44tt0sfpxsezubqc.png",
+      "bytes": 3229586,
+      "sha256": "bdd9f228fbe2aefc3d8d259975b6307558933048c45ccdd33b3eab3edc89a079",
+      "width": 1052,
+      "height": 2104,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/norma-stand.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/a/a4/6b32c3ngkhpl0882k67zjb3kw9ybgex.png",
+      "bytes": 742245,
+      "sha256": "61533f8dc79990e85ac8923792b9a0dbba565893132a3c7404572c2100f3f8ad",
+      "width": 995,
+      "height": 1288,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/roxy-intro.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/6/64/jrklm8p2tbs5sevs2r39ylbmixseepq.png",
+      "bytes": 1951113,
+      "sha256": "596389ae40b7e680388d87a94f5cc3ac45ca1da5e935708355e63b4c93a4913e",
+      "width": 1052,
+      "height": 1362,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/roxy-stand.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/6/6e/pbjjctdqpm1tfp4jtyv8bjt8a40ls9t.png",
+      "bytes": 1046790,
+      "sha256": "8958d50f6e336e458eaded49827e7d72fc1dac91cd17fd39e031e8c97639a3e1",
+      "width": 1001,
+      "height": 1296,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/sigrid-intro.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/0/0e/byrlcljrrlhzg4pbyo11svfvpq33sem.png",
+      "bytes": 2241705,
+      "sha256": "1fadd4b3d0b4097e0bc59c1cf0c59c7e68b1edbd8ecec4d6bad2e78421e99c8f",
+      "width": 1052,
+      "height": 1362,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/sigrid-intro2.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/7/7c/a7206ffodwr4o4jhtthp9h4qrh1yxyj.png",
+      "bytes": 3196122,
+      "sha256": "107c27bb6a7480457230e4c970dacc56bb37538e081df31903b9c1b912b0ce41",
+      "width": 1052,
+      "height": 2104,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/sigrid-stand.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/6/60/t8ia7xc3moufv5hvst72ngn7dwtgvj8.png",
+      "bytes": 464819,
+      "sha256": "6643cbeefe72a18124de7aaa53e2da976bdf836d5616477198e7541be60ab6ce",
+      "width": 918,
+      "height": 1189,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/velina-intro.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/c/c9/rly4inu309ruah1mwvc098sx47dg4pc.png",
+      "bytes": 2298062,
+      "sha256": "1d6d6dcc398ff1788d8ffd2b9995fc540edbd0ec5eec8f83cc7e581a2c58d6d7",
+      "width": 1052,
+      "height": 1362,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/velina-intro2.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/f/f9/kcrepxobscrffwhttqc4v1gqvior3jf.png",
+      "bytes": 3487635,
+      "sha256": "78a0f3311c5abe14e1eb0dc581f6ce6931d0092d351ae2920a1a9c0d432afeb8",
+      "width": 1052,
+      "height": 2104,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/velina-stand.png",
+      "kind": "downloaded-reference",
+      "source": "https://patchwiki.biligame.com/images/zzz/2/28/7ig6ktymorss8fl0zu9muzsxhdkin46.png",
+      "bytes": 887715,
+      "sha256": "7623a6eb21659436cde927c90dc5528a9eb4bd944b6c82a07953c4946d8a0b1f",
+      "width": 1033,
+      "height": 1338,
+      "mode": "RGBA"
+    }
+  ]
+}

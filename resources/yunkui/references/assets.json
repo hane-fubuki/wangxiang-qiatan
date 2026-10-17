@@ -1,0 +1,150 @@
+[
+  {
+    "character": "仪玄",
+    "id": "yixuan",
+    "kind": "stand",
+    "page": "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+    "url": "https://patchwiki.biligame.com/images/zzz/2/2a/0lh8c3trm6f6n522r884xfghpg1nwf9.png",
+    "path": "web/assets/yunkui-yixuan-stand.png",
+    "sha256": "11c2c5958272268dad1d0c42ecaad07c3dfef1985f446ed6e5c19d2a4a7e4393",
+    "sourceType": "BWIKI-hosted public game artwork",
+    "retrieved": "2026-10-17"
+  },
+  {
+    "character": "仪玄",
+    "id": "yixuan",
+    "kind": "intro",
+    "page": "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+    "url": "https://patchwiki.biligame.com/images/zzz/1/1d/k9m7919bfvjgd1kpvztqnzgwmc9799i.png",
+    "path": "web/assets/yunkui-yixuan-intro.png",
+    "sha256": "4bce7df2cb9b1800fd025126036e215a6e01a305c7465bbc8d0552ba5e2a63cb",
+    "sourceType": "BWIKI-hosted public game artwork",
+    "retrieved": "2026-10-17"
+  },
+  {
+    "character": "叶瞬光",
+    "id": "ye-shunguang",
+    "kind": "default-stand-archived",
+    "page": "https://wiki.biligame.com/zzz/%E5%8F%B6%E7%9E%AC%E5%85%89",
+    "url": "https://patchwiki.biligame.com/images/zzz/b/bb/r9bbu7d0xedka8y881eagyhpyxgv9pg.png",
+    "path": "output/yunkui-research/ye-shunguang-original-stand.png",
+    "sha256": "aa469abead44f4197aa3e9e91f22bce4ba2f8052f02afac23225e7ae1cf33a7f",
+    "sourceType": "BWIKI-hosted public game artwork",
+    "retrieved": "2026-10-17"
+  },
+  {
+    "character": "叶瞬光",
+    "id": "ye-shunguang",
+    "kind": "intro",
+    "page": "https://wiki.biligame.com/zzz/%E5%8F%B6%E7%9E%AC%E5%85%89",
+    "url": "https://patchwiki.biligame.com/images/zzz/b/bd/fstow7hc4dugp9h6veklpaeptmbvun2.png",
+    "path": "web/assets/yunkui-ye-shunguang-intro.png",
+    "sha256": "51462dd67bf017e8b06135cf9b20c55520f164ef5d70c1bf729e4ad86f9f408e",
+    "sourceType": "BWIKI-hosted public game artwork",
+    "retrieved": "2026-10-17"
+  },
+  {
+    "character": "潘引壶",
+    "id": "pan-yinhu",
+    "kind": "stand",
+    "page": "https://wiki.biligame.com/zzz/%E6%BD%98%E5%BC%95%E5%A3%B6",
+    "url": "https://patchwiki.biligame.com/images/zzz/b/bb/9u71434d8hqi1nrpl9z70lu9pwesoqh.png",
+    "path": "web/assets/yunkui-pan-yinhu-stand.png",
+    "sha256": "fc78e9f33263c31b5ae70c089c68a9a6a5ae60a3bb4d4376a775a8d1b8b4a551",
+    "sourceType": "BWIKI-hosted public game artwork",
+    "retrieved": "2026-10-17"
+  },
+  {
+    "character": "潘引壶",
+    "id": "pan-yinhu",
+    "kind": "intro",
+    "page": "https://wiki.biligame.com/zzz/%E6%BD%98%E5%BC%95%E5%A3%B6",
+    "url": "https://patchwiki.biligame.com/images/zzz/b/ba/iy78ahecnd5p5zpfwq2wcc2588imrqa.png",
+    "path": "web/assets/yunkui-pan-yinhu-intro.png",
+    "sha256": "c2047a3ffbb51132d195ed66e3931ff8398d959bbe0821789088c3d4a99b3e65",
+    "sourceType": "BWIKI-hosted public game artwork",
+    "retrieved": "2026-10-17"
+  },
+  {
+    "character": "橘福福",
+    "id": "ju-fufu",
+    "kind": "stand",
+    "page": "https://wiki.biligame.com/zzz/%E6%A9%98%E7%A6%8F%E7%A6%8F",
+    "url": "https://patchwiki.biligame.com/images/zzz/c/cd/by3lki3hkf5ogvessaxihvqno7v0yog.png",
+    "path": "web/assets/yunkui-ju-fufu-stand.png",
+    "sha256": "b1da44c895df214bf4455390d8932cf8cbdd7683bfe4e725a6ddd651c7981ad8",
+    "sourceType": "BWIKI-hosted public game artwork",
+    "retrieved": "2026-10-17"
+  },
+  {
+    "character": "橘福福",
+    "id": "ju-fufu",
+    "kind": "intro",
+    "page": "https://wiki.biligame.com/zzz/%E6%A9%98%E7%A6%8F%E7%A6%8F",
+    "url": "https://patchwiki.biligame.com/images/zzz/2/20/nrcljh0hup6v47kx51p3ttbjdb8nq7c.png",
+    "path": "web/assets/yunkui-ju-fufu-intro.png",
+    "sha256": "f61bad7cfbcaffe2fdc5898fffada8e54dc6631194f5e6776b8899bf87626654",
+    "sourceType": "BWIKI-hosted public game artwork",
+    "retrieved": "2026-10-17"
+  },
+  {
+    "id": "ye-shunguang",
+    "kind": "skin-stand",
+    "path": "web/assets/yunkui-ye-shunguang-warm-stand.png",
+    "page": "https://wiki.biligame.com/zzz/暖霞拾光",
+    "url": "https://patchwiki.biligame.com/images/zzz/8/8d/s8nkhbdiuuiwc8lxqdebiwbkbwk5h4f.png",
+    "sha256": "88b79f0dd9baba360ff021768da65d2985dd84da6e75e7454923f099e969d48d",
+    "sourceType": "BWIKI-hosted public skin artwork",
+    "retrieved": "2026-10-17"
+  },
+  {
+    "id": "ye-shunguang",
+    "kind": "skin-details",
+    "path": "web/assets/yunkui-ye-shunguang-warm-details.png",
+    "page": "https://wiki.biligame.com/zzz/暖霞拾光",
+    "url": "https://patchwiki.biligame.com/images/zzz/f/fb/jkveg26yklqp8lutuspus2k992gubhd.png",
+    "sha256": "1caffc1c42ee9463d4aef55c440e18f6d79fd365a9c9a8e1237c9c1c1cfef3be",
+    "sourceType": "BWIKI-hosted public skin artwork",
+    "retrieved": "2026-10-17"
+  },
+  {
+    "id": "yixuan",
+    "kind": "avatar",
+    "path": "web/assets/yunkui-yixuan-avatar.png",
+    "sha256": "2c1a70c732f9151814a94e958b66a1d6261e16139229b5e268781d7934089434",
+    "sourceType": "built-in imagegen fan art",
+    "skin": "default"
+  },
+  {
+    "id": "ye-shunguang",
+    "kind": "avatar",
+    "path": "web/assets/yunkui-ye-shunguang-avatar.png",
+    "sha256": "29776d8643b40826d2e7d5e43900604684bf39e24a019a6ac73568f5171204ea",
+    "sourceType": "built-in imagegen fan art",
+    "skin": "暖霞拾光"
+  },
+  {
+    "id": "pan-yinhu",
+    "kind": "avatar",
+    "path": "web/assets/yunkui-pan-yinhu-avatar.png",
+    "sha256": "c7f1fc515df66253e6943a4e91fb25be6d40bfe8397f74c0be234afcabedcee8",
+    "sourceType": "built-in imagegen fan art",
+    "skin": "default"
+  },
+  {
+    "id": "ju-fufu",
+    "kind": "avatar",
+    "path": "web/assets/yunkui-ju-fufu-avatar.png",
+    "sha256": "7a5e3c579d30d4cb3c887c97a20e675618da056d5ee31c1eb903b14b3374c4cc",
+    "sourceType": "built-in imagegen fan art",
+    "skin": "default"
+  },
+  {
+    "id": "ye-shunguang",
+    "kind": "active-stand",
+    "path": "web/assets/yunkui-ye-shunguang-stand.png",
+    "sha256": "9a0393cdb3c3ef77fd0b3675207f38e3014d800d1657ad3f5b86a36f96ca2a40",
+    "sourceType": "built-in imagegen extraction from skin poster; AI-derived",
+    "skin": "暖霞拾光"
+  }
+]

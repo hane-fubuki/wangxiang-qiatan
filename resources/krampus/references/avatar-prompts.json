@@ -1,0 +1,40 @@
+[
+  {
+    "stem": "dialyn",
+    "prompt": "Use case: stylized-concept. Asset: ONE square transparent chibi bust avatar for an anime character chat app. Image 1 is the official character identity reference, not an edit target. Create a new super-deformed cute portrait with a large head and small upper body, clean fine anime outlines, polished restrained cel shading, smooth color shapes, readable at small icon size. Frame head, all head accessories and shoulders completely with a small safe margin, centered, facing viewer or slight three-quarter angle. Preserve distinctive color, hairstyle, eyes and outfit from reference. No text, logo, watermark, border, sticker outline, backdrop, shadow cloud or checkerboard; actual transparent background. Character: Dialyn / 琉音. Black and white sharply split hair: her own RIGHT side black (viewer left), own LEFT side white (viewer right). Two raised twisted buns with red/black/white round ornaments, and two long braided tails, black on her right, white on her left. Gold amber eyes with colorful iris accents; black high Mandarin collar with red frog fastenings, white fitted Chinese-inspired top with turquoise cable trim and gold details. Expression a bright teasing clever smile. She holds a dark telephone receiver beside her face with one small simplified gloved hand. Let the braid ends curve within the bust composition. No rabbit ears.",
+    "file": "exec-d2d44fcd-b69c-477a-bdb8-e4aa8a35a4bb.png",
+    "mode": "built-in image_gen",
+    "transparent": true
+  },
+  {
+    "stem": "zhao",
+    "prompt": "Use case: stylized-concept. Asset: ONE square transparent chibi bust avatar for an anime character chat app. Image 1 is the official character identity reference, not an edit target. Create a new super-deformed cute portrait with a large head and small upper body, clean fine anime outlines, polished restrained cel shading, smooth color shapes, readable at small icon size. Frame head, all head accessories and shoulders completely with a small safe margin, centered, facing viewer or slight three-quarter angle. Preserve distinctive color, hairstyle, eyes and outfit from reference. No text, logo, watermark, border, sticker outline, backdrop, shadow cloud or checkerboard; actual transparent background. Character: Zhao / 照. Small anthropomorphic rabbit Thiren, pale peach pink fluffy hair, two tall real rabbit ears with warm pink interiors and soft white inner fur; do NOT turn her into a human with a rabbit ear headband. Puffy pink braided twin ponytails tied with bright orange bead/tassel bands, orange and black circular screw-like ear devices. Warm orange-red eyes, calm knowing friendly little smile. Turquoise/teal sleeves, huge pale cuffs, dark charcoal sleeveless outfit with orange cord and edging. Tiny white furry paws at lower frame; no weapon necessary for the avatar. Keep BOTH ears completely in frame; head and ears occupy most of the square.",
+    "file": "exec-f1672500-025b-45d8-a92b-adfb47102354.png",
+    "mode": "built-in image_gen",
+    "transparent": true
+  },
+  {
+    "stem": "banyue",
+    "prompt": "Use case: stylized-concept. Asset: ONE square transparent chibi bust avatar for an anime character chat app. Image 1 is the official character identity reference, not an edit target. Create a new super-deformed cute portrait with a large head and small upper body, clean fine anime outlines, polished restrained cel shading, smooth color shapes, readable at small icon size. Frame head, all head accessories and shoulders completely with a small safe margin, centered, facing viewer or slight three-quarter angle. Preserve distinctive color, hairstyle, eyes and outfit from reference. No text, logo, watermark, border, sticker outline, backdrop, shadow cloud or checkerboard; actual transparent background. Character: Banyue / 般岳. A male lion-inspired intelligent mechanical martial arts master, NOT a human face or cute flesh animal. Silver gray layered lion mane swept upward and backward, pale angular mask-like armored face, narrow gold luminous eyes, dark gunmetal mechanical jaw, broad gray-green shoulder armor, white chest plates, golden round glowing chest core, dark mechanical neck with gold cables. Warm composed dignified protective demeanor conveyed by head tilt and relaxed shoulders. Chibi broad shoulders and compact robot torso. Two small gold mechanical prayer spheres can float near shoulders, below mane height. No new mouth, human skin or beard; preserve his lion mechanical identity.",
+    "file": "exec-e841119e-69ae-40c4-8160-f74ed6ea1c83.png",
+    "mode": "built-in image_gen",
+    "transparent": true
+  },
+  {
+    "stem": "promeia",
+    "prompt": "Use case: stylized-concept. Asset: ONE square transparent chibi bust avatar for an anime character chat app. Image 1 is the official character identity reference, not an edit target. Create a new super-deformed cute portrait with a large head and small upper body, clean fine anime outlines, polished restrained cel shading, smooth color shapes, readable at small icon size. Frame head, all head accessories and shoulders completely with a small safe margin, centered, facing viewer or slight three-quarter angle. Preserve distinctive color, hairstyle, eyes and outfit from reference. No text, logo, watermark, border, sticker outline, backdrop, shadow cloud or checkerboard; actual transparent background. Character: Promeia / 普罗米娅. Deep saturated cobalt blue and violet hair, long side-swept bangs obscuring her own RIGHT eye (viewer left), visible violet eye, a single long segmented braid with white-silver angular cuffs curving down her own LEFT side (viewer right). Pale skin, reserved gentle serious expression, subtle small closed mouth. High navy structured cloak collar and winglike dark violet shoulder panels, silver-white lining and metallic circular clasp details, black close-fitting inner top. Show simplified pair of silver wrist restraints below the chest only if hands are visible; do not change her into a smiling energetic idol. Let one braid tip curl within frame.",
+    "file": "exec-e8c7e2a6-e76a-4d07-8768-e812fe198139.png",
+    "mode": "built-in image_gen",
+    "transparent": true,
+    "initialFile": "exec-e8c7e2a6-e76a-4d07-8768-e812fe198139.png",
+    "selectedFile": "exec-ee321df4-11e2-4f5d-8c2d-b4abf2119e9e.png",
+    "finalCorrection": "promeia-avatar-correction.json"
+  },
+  {
+    "stem": "phoenix",
+    "prompt": "Use case: stylized-concept. Asset: ONE square transparent chibi bust avatar for an anime character chat app. Image 1 is official identity reference for Phoenix / 菲欧妮·蕾法爱菈 from Zenless Zone Zero. Create a NEW super-deformed portrait of this exact character. Large head, small shoulders and upper torso, clean fine anime outlines, polished restrained cel shading, smooth colors, matching an elegant cute chibi portrait series. Pale cream blonde hair with soft brown/taupe underlayers and long low twin tails; wispy asymmetric central bangs, a small curved forelock; two bronze circular medallion hair clips near temples, with a tiny black ribbon at one side. Clear luminous gold amber eyes, pale skin, gentle slightly tired amused smile. Preserve gray scalloped standing collar with thin white piping, white tailored bodice with black inset and pleated white center, short contrasting gray and black puff sleeves, red heart-shaped ornamental bow and knot at chest, gold trim. Chest-up centered, facing viewer, complete head and hair ornaments with safe transparent margin. A small red heart-shaped top of her support weapon may appear at the bottom edge, without obscuring chest; simplify long tails into curves within frame. NO fire wings necessary in the close-up, no wheelchair invented, no text, logos, watermark, sticker border, backdrop, shadows or checkerboard. Actual transparent background.",
+    "file": "exec-592964c4-1d71-4e7c-b18b-6e50f4f6be32.png",
+    "mode": "built-in image_gen",
+    "transparent": true
+  }
+]

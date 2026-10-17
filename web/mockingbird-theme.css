@@ -1,0 +1,140 @@
+/* Vivian's evening correspondence: black lace, lilac wings, pearlescent paper. */
+body.mockingbird-theme { --accent:#78538e; --muted:#786c80; --border:#e3dbe7; --surface:#fffcff; color:#362d40; background:#f5f0f7; }
+.app-shell.mockingbird-room { color:#362d40; background:#f5f0f7; }
+.mockingbird-room .sidebar { background:#231d2e; color:#e5dbea; border-color:#40324d; padding-top:25px; }
+.mockingbird-room .brand { color:#f2e5f5; font:600 20px 'Microsoft Yahei',sans-serif; gap:10px; padding:0 0 25px; letter-spacing:0; }
+.mockingbird-room .brand small { color:#b89ac8; font:10px 'Microsoft Yahei',sans-serif; letter-spacing:2px; margin-top:9px; }
+.mockingbird-room .brand-mark { background:none; border:0; width:42px; height:42px; transform:none; }
+.mockingbird-room .brand-mark img { width:42px; height:42px; }
+.mockingbird-room .room-category-label,.mockingbird-room .sidebar-section { color:#b09fbd; letter-spacing:1.6px; font-size:10px; }
+.mockingbird-room .room-button { color:#c8bacf; border-radius:6px; padding:11px; margin:3px 0; }
+.mockingbird-room .room-button:hover { background:#352b40; color:#fff2ff; }
+.mockingbird-room .room-button.active { color:#f7ecfa; background:#614374; box-shadow:inset 3px 0 #d0acd9; }
+.mockingbird-room .room-button.active svg { color:#e2bde8; }
+.mockingbird-room .primary,.mockingbird-room .send-button { background:#78538e; color:#fff7ff; }
+.mockingbird-room .primary:hover,.mockingbird-room .send-button:hover { background:#664077; }
+.mockingbird-room .new-chat { border-radius:6px; margin-top:16px; border:1px solid #ad8abe; background:#d4b9df; color:#35233e; font-size:12px; }
+.mockingbird-room .new-chat:hover { background:#e4c9ec; }
+.mockingbird-room .new-chat kbd { color:#654b70; background:#ffffff38; font-size:9px; }
+.mockingbird-room .search { color:#cbb9d6; border:1px solid #51415f; background:#2c2338; border-radius:6px; }
+.mockingbird-room .search input { color:#f1e6f4; }
+.mockingbird-room .search input::placeholder { color:#b7a2c3; }
+.mockingbird-room .search-slash { color:#b7a2c3; border-color:#65536f; }
+.mockingbird-room .chat-item { color:#c9b9d3; border-radius:5px; }
+.mockingbird-room .chat-item:hover,.mockingbird-room .chat-item.active { background:#3a2d47; color:#f3d6f2; }
+.mockingbird-room .list-empty,.mockingbird-room .chat-item small { color:#ad9cba; }
+.mockingbird-room .sidebar-bottom,.mockingbird-room .settings-open { border-color:#483a54; color:#dfcfe8; }
+.mockingbird-room .settings-open small,.mockingbird-room .settings-open [data-icon] { color:#b6a1c5; }
+.mockingbird-room .local-badge { color:#decee7; background:#30263b; border-color:#53435f; }
+.mockingbird-room .local-badge small { color:#bdabc9; }
+.mockingbird-room .workspace { background:#f5f0f7; }
+.mockingbird-room .topbar { background:#fcf9fd; border-color:#e1d8e6; height:58px; padding:0 28px; }
+.mockingbird-room .breadcrumb,.mockingbird-room .private-label,.mockingbird-room .topbar-actions { color:#7e6c89; }
+.mockingbird-room .breadcrumb strong { color:#594464; }
+.mockingbird-room .chat-heading { margin:22px 28px 0; padding:25px 28px; border:1px solid #705080; border-radius:10px 10px 3px 3px; background:#33263f; color:#f5e9f7; overflow:hidden; position:relative; isolation:isolate; flex-shrink:0; }
+.mockingbird-room .chat-heading::before { content:''; position:absolute; width:195px; height:195px; border:1px solid #b995ce55; border-radius:50%; right:-16px; top:-52px; box-shadow:0 0 0 10px #c5a7d60b,0 0 0 11px #b995ce25,0 0 0 32px #b995ce07,0 0 0 33px #b995ce20; z-index:-1; }
+.mockingbird-room .chat-heading::after { content:''; position:absolute; width:128px; height:128px; right:12px; top:8px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='%23c4a0d2' stroke-width='.8'%3E%3Cpath d='M9 31a23 23 0 0 1 46 0q-6-6-12 0-6-6-11 0-6-6-11 0-6-6-12 0ZM32 8q-8 8-11 23m11-23q8 8 11 23M32 3v48a6 6 0 0 0 12 0M8 40q6 6 13 0M46 40q6 6 13 0'/%3E%3C/svg%3E") center/contain no-repeat; opacity:.55; transform:rotate(15deg); z-index:-1; }
+.mockingbird-room .chat-heading > div { max-width:calc(100% - 90px); }
+.mockingbird-room .chat-heading .eyebrow { color:#d7b6e3; font-size:9px; letter-spacing:2px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+.mockingbird-room .chat-heading .room-kind { color:#dfcce8; border:1px solid #83688e; background:#ffffff06; border-radius:3px; margin:0; font-size:9px; }
+.mockingbird-room .chat-heading h1 { color:#fcf1ff; font:600 clamp(28px,2.5vw,38px)/1.3 'SimSun','Songti SC',serif; letter-spacing:3px; margin:13px 0 10px; }
+.mockingbird-room .chat-heading p { color:#d0bdd9; font-size:12px; line-height:1.85; }
+.mockingbird-room .messages { max-width:1200px; padding:0 28px 24px; }
+.mockingbird-room .empty-state { max-width:none; padding:22px 0 4px; }
+.mockingbird-room .character-stage[data-character-count="2"] { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); height:auto; gap:18px; padding:0 0 10px; margin:0; background:none; }
+.mockingbird-room .character-stage::after { display:none; }
+.mockingbird-room .stage-character { width:100%; height:320px; margin:0; padding:0; background:#ede3f2; border:1px solid #cdbbd7; border-radius:100px 100px 7px 7px; overflow:hidden; justify-content:space-between; position:relative; }
+.mockingbird-room .stage-character > .character-art { width:100%; height:266px; min-height:0; padding:12px 7px 0; flex:1; background:radial-gradient(ellipse at 50% 65%,#d9bce7aa,transparent 65%),linear-gradient(135deg,#fcf8ff,#e7d9ee); }
+.mockingbird-room .stage-hugo > .character-art { background:radial-gradient(ellipse at 50% 65%,#d5b4c955,transparent 68%),linear-gradient(135deg,#f9f6fa,#e6dbe4); }
+.mockingbird-room .stage-character > .character-art img { width:100%; height:100%; object-fit:contain; object-position:center; filter:drop-shadow(0 9px 7px #35213f18); }
+.mockingbird-room .stage-character:hover { transform:translateY(-3px); border-color:#9c75af; box-shadow:0 7px 18px #4f355512; }
+.mockingbird-room .stage-character.out-of-party { opacity:.5; }
+.mockingbird-room .stage-name { width:100%; min-width:0; max-width:none; min-height:54px; padding:8px 14px; margin:0; gap:10px; border:0; border-top:1px solid #cdbbd7; border-radius:0; background:#fcf8fd; justify-content:center; }
+.mockingbird-room .stage-avatar { display:block; width:34px; height:34px; border:1px solid #dfcbe7; border-radius:50%; background:#eee1f4; }
+.mockingbird-room .stage-name strong { color:#493455; font:600 16px 'SimSun',serif; letter-spacing:2px; text-align:left; }
+.mockingbird-room .stage-name small { color:#81668f; font-size:10px; text-align:left; margin-top:4px; }
+.mockingbird-room .stage-character[aria-pressed="true"] { border-color:#a47bb5; box-shadow:0 0 0 2px #bc9dca33; }
+.mockingbird-room .stage-character[aria-pressed="true"] .stage-name { background:#f1e5f6; border-color:#cdbbd7; }
+.mockingbird-room .welcome-copy { justify-content:flex-start; margin-top:14px; }
+.mockingbird-room .welcome-copy h2 { color:#563f63; font:600 21px 'SimSun','Songti SC',serif; text-align:left; margin:8px 0; letter-spacing:1px; }
+.mockingbird-room .empty-state > p { color:#776782; font-size:12px; line-height:1.85; text-align:left; margin:0 0 19px; }
+.mockingbird-room .gpt-welcome-note { color:#8b7896; font-size:10px; }
+.mockingbird-room .prompt-grid { gap:10px; }
+.mockingbird-room .prompt-card { padding:16px 12px; border:1px solid #ded0e6; border-radius:5px; background:#fffcff; gap:9px; box-shadow:0 3px 0 #e8deed; }
+.mockingbird-room .prompt-card:hover { background:#f6edf9; border-color:#ae89bd; transform:translateY(-2px); }
+.mockingbird-room .prompt-card .prompt-icon { width:32px; height:32px; color:#8d5d9d; background:#f0e2f6; border-radius:50%; }
+.mockingbird-room .prompt-card strong { color:#54365e; font-size:12px; }
+.mockingbird-room .prompt-card small { color:#87738e; font-size:11px; line-height:1.65; }
+.mockingbird-room .prompt-arrow { color:#a282b0; }
+.mockingbird-room .starter-status,.mockingbird-room .empty-foot { color:#85728e; font-size:10px; }
+.mockingbird-room .icon-button:hover { background:#eee1f4; color:#76508a; }
+.mockingbird-room .composer-area { background:#f5f0f7; padding:12px 28px 16px; }
+.mockingbird-room .composer { border:1px solid #cab3d6; background:#fffcff; border-radius:10px; box-shadow:0 4px 18px #49345608; }
+.mockingbird-room .composer:focus-within { border-color:#a07aaf; box-shadow:0 0 0 3px #b590c51c; }
+.mockingbird-room .composer textarea { color:#483651; }
+.mockingbird-room .composer textarea::placeholder { color:#9b84a6; }
+.mockingbird-room .composer-hints,.mockingbird-room .mention-button,.mockingbird-room .composer-footer,.mockingbird-room .composer-footer button { color:#80618f; }
+.mockingbird-room .mention-button.is-private,.mockingbird-room #scene-button { color:#785187; background:#f0e4f6; }
+.mockingbird-room .composer-divider { background:#decce7; }
+.mockingbird-room .send-button { border-radius:50% 50% 50% 6px; }
+.mockingbird-room .message { border-color:#e4d8ea; }
+.mockingbird-room .message-header strong { color:#654774; }
+.mockingbird-room .message-content { color:#493d52; }
+.mockingbird-room .message.user .message-content { background:#eee2f3; border-color:#decce8; }
+.mockingbird-room .message-model,.mockingbird-room .message-header time { color:#8b7895; }
+.mockingbird-room .reply-tag { color:#795a88; background:#ede0f3; }
+.mockingbird-room .system-message,.mockingbird-room .listening-message { color:#826a8f; background:#eee5f3; }
+.mockingbird-room .avatar-vivian { background:#e6d1f0; }
+.mockingbird-room .avatar-hugo { background:#ead8e1; }
+.mockingbird-room .run-banner { background:#eee0f4; color:#654373; border-color:#cdb2db; }
+.mockingbird-room .right-panel { background:#fcf9fd; border-color:#ded2e6; padding-top:24px; }
+.mockingbird-room .panel-heading h2,.mockingbird-room .panel-section-heading h2 { color:#583b67; font-size:14px; }
+.mockingbird-room .panel-subtitle,.mockingbird-room .panel-footnote { color:#887391; font-size:11px; }
+.mockingbird-room .count-pill { background:#eaddf2; color:#755188; border:1px solid #d7c3e1; }
+.mockingbird-room .character-preview { background:#f6eef9; border:1px solid #dccce5; border-radius:60px 60px 6px 6px; padding-top:10px; }
+.mockingbird-room .character-preview > .character-art { height:220px; background:radial-gradient(ellipse,#e5d2f0,transparent 70%); }
+.mockingbird-room .portrait-caption { background:#fcf8ff; border-color:#e0d2e9; }
+.mockingbird-room .portrait-kicker { color:#9b7ba9; }
+.mockingbird-room .portrait-caption strong { color:#654676; }
+.mockingbird-room .portrait-caption p { color:#8b7397; font-size:10px; }
+.mockingbird-room .provider-card { background:#fffcff; border-color:#dfd0e7; border-radius:7px; }
+.mockingbird-room .provider-card.inactive { background:#f0eaf3; }
+.mockingbird-room .provider-name,.mockingbird-room .provider-name strong { color:#664274; }
+.mockingbird-room .provider-name small,.mockingbird-room .provider-state { color:#887190; }
+.mockingbird-room .provider-state.active { color:#79518a; }
+.mockingbird-room .provider-toggle { background:#d9cce1; }
+.mockingbird-room .provider-toggle[aria-pressed="true"] { background:#9a70af; }
+.mockingbird-room .provider-character-button[aria-pressed="true"] .avatar { box-shadow:0 0 0 2px #b596c5; }
+.mockingbird-room .provider-model-select { background:#faf4fd; border-color:#dac7e4; color:#6b4b7c; }
+.mockingbird-room .connection-button { color:#80538f; }
+.mockingbird-room .connection-button:hover { color:#664079; background:#eee0f5; }
+.mockingbird-room .panel-rule { background:#e0d0e8; }
+.mockingbird-room .panel-section-heading svg { color:#9670aa; }
+.mockingbird-room .mode-button { background:transparent; color:#7c618a; }
+.mockingbird-room .mode-button strong { color:#70517f; }
+.mockingbird-room .mode-button small { color:#937b9e; }
+.mockingbird-room .mode-button > span:first-child { color:#a07cb0; }
+.mockingbird-room .mode-button.selected { background:#efe2f6; border-color:#ccb1db; }
+.mockingbird-room .mode-button.selected strong { color:#6c417d; }
+.mockingbird-room .mode-button.selected .radio-mark { border-color:#a37ab7; }
+.mockingbird-room .mode-button.selected .radio-mark:after { background:#9866af; }
+.mockingbird-room .rounds-control { color:#80628e; }
+.mockingbird-room .rounds-control select { background:#fffcff; border-color:#d9c5e3; color:#765185; }
+.mockingbird-room .discussion-note { background:#f1e7f7; border-color:#d8c5e3; color:#876495; }
+.mockingbird-room .discussion-note p,.mockingbird-room .discussion-note span,.mockingbird-room .research-settings-note { color:#8d7599; }
+.mockingbird-room .connection-status { color:#82638e; }
+.mockingbird-theme dialog { color:#483651; background:#fcf8ff; border:1px solid #c8a9d7; box-shadow:0 20px 70px #231d2e35; border-radius:12px; }
+.mockingbird-theme dialog::backdrop { background:#21182880; backdrop-filter:blur(3px); }
+.mockingbird-theme .dialog-header h2 { color:#674275; }
+.mockingbird-theme .dialog-header .eyebrow { color:#9979a7; }
+.mockingbird-theme .dialog-description,.mockingbird-theme .connection-detail p,.mockingbird-theme .skill-version,.mockingbird-theme .skill-command-help { color:#876b93; }
+.mockingbird-theme .primary { background:#805593; color:#fff7ff; }
+.mockingbird-theme .secondary { background:#f3e8f8; border-color:#dac1e5; color:#7c548e; }
+.mockingbird-theme dialog input,.mockingbird-theme dialog textarea,.mockingbird-theme dialog select { background:#fffcff; border:1px solid #d6bfdf; color:#50345c; }
+.mockingbird-theme .skill-base,.mockingbird-theme .skill-history,.mockingbird-theme .setup-note { background:#f1e7f6; border-color:#dfcce8; color:#795b88; }
+.mockingbird-theme .scene-member { border-color:#d6bfe0; background:#f8f0fc; color:#674775; }
+.mockingbird-theme .toast { color:#f6e9fc; background:#4c345c; border-color:#9474a3; }
+.mockingbird-room :focus-visible,.mockingbird-theme dialog :focus-visible { outline:2px solid #a16abb; outline-offset:3px; }
+@media(max-width:1200px) { .mockingbird-room .brand { font-size:17px; gap:8px; } .mockingbird-room .brand small { font-size:8px; letter-spacing:1px; } .mockingbird-room .brand-mark,.mockingbird-room .brand-mark img { width:35px; height:35px; } .mockingbird-room .chat-heading { margin-left:20px; margin-right:20px; padding:23px; } .mockingbird-room .messages { padding-left:20px; padding-right:20px; } .mockingbird-room .stage-character { height:290px; } .mockingbird-room .stage-character > .character-art { height:236px; } .mockingbird-room .prompt-grid { grid-template-columns:1fr; } .mockingbird-room .prompt-card { padding:12px 14px; } }
+@media(max-width:720px) { .mockingbird-room .sidebar { padding:25px 20px 0; } .mockingbird-room .brand { font-size:20px; } .mockingbird-room .brand small { font-size:10px; } .mockingbird-room .topbar { height:57px; padding:0 12px; } .mockingbird-room .chat-heading { margin:14px 14px 0; padding:21px 20px; } .mockingbird-room .chat-heading > div { max-width:calc(100% - 28px); } .mockingbird-room .chat-heading h1 { font-size:27px; letter-spacing:2px; } .mockingbird-room .chat-heading::after { right:-28px; top:12px; opacity:.22; } .mockingbird-room .messages { padding:0 14px 18px; } .mockingbird-room .empty-state { padding-top:18px; } .mockingbird-room .character-stage[data-character-count="2"] { gap:12px; } .mockingbird-room .stage-character { height:266px; border-radius:70px 70px 6px 6px; } .mockingbird-room .stage-character > .character-art { height:212px; padding:10px 2px 0; } .mockingbird-room .stage-name { padding:7px; gap:7px; } .mockingbird-room .stage-name strong { font-size:14px; } .mockingbird-room .stage-avatar { width:28px; height:28px; } .mockingbird-room .welcome-copy h2 { font-size:19px; } .mockingbird-room .composer-area { padding:8px 14px 12px; } .mockingbird-room .composer-hints { gap:4px; } }
+@media(prefers-reduced-motion:reduce) { .mockingbird-room *, .mockingbird-room *::before, .mockingbird-room *::after { animation:none!important; transition:none!important; } }
