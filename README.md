@@ -4,7 +4,7 @@
 
 ## 启动
 
-酒馆新增 **404小队**（奥波勒斯小队）：席德、鬼火、奥菲丝、扳机、11号、白银安比。鬼火使用机械龙头枪械形象，与奥菲丝分别发言、选择模型和保存补充设定。六套清爽Q版头像与席德主题图标、界面已接入；[角色资料与来源](resources/obol/references/sources.md)区分公开设定和同人演绎。[角色skill下载包](output/404小队角色skill.zip)可独立复用，当前电脑已安装 `zzz-obol-reference`。
+酒馆新增 **404小队**（奥波勒斯小队）：席德、鬼火、奥菲丝、扳机、11号、白银安比。鬼火使用机械龙头枪械形象，与奥菲丝分别发言、选择模型和保存补充设定。六套清爽Q版头像与席德主题图标、界面已接入；[角色资料与来源](resources/obol/references/sources.md)区分公开设定和同人演绎。[可移植角色资料](resources/obol/)可独立复用，本机也安装了 `zzz-obol-reference`。
 
 需要 **Python 3.11 或更新版本**。首次运行先执行 `python -m pip install -r requirements.txt`；Pillow 用于大图识别时的局部无损裁切，不改写上传原件。
 
